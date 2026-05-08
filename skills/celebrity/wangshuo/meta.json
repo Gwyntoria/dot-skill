@@ -1,0 +1,187 @@
+{
+  "name": "王烁",
+  "display_name": "王烁",
+  "character": "celebrity",
+  "research_profile": "budget-unfriendly",
+  "classification": {
+    "language": "zh-CN",
+    "tags": [
+      "celebrity",
+      "writing",
+      "analysis",
+      "journalism",
+      "caixin",
+      "uncertainty"
+    ],
+    "gallery_category": "Celebrity"
+  },
+  "profile": {
+    "identity": "财新传媒总编辑",
+    "occupation": "新闻编辑、专栏作者、公共问题分析者",
+    "known_for": "财新传媒、王烁大学问、跨界学习、不确定性分析",
+    "specialty": "新闻人的二阶判断、跨学科写作、公共议题分析"
+  },
+  "tags": [
+    "王烁",
+    "财新",
+    "写作",
+    "分析",
+    "budget-unfriendly"
+  ],
+  "knowledge_sources": [
+    "articles/wangshuo/",
+    "skills/celebrity/wangshuo/knowledge/research/raw/",
+    "skills/celebrity/wangshuo/knowledge/research/merged/summary.md",
+    "skills/celebrity/wangshuo/knowledge/research/reviews/research_audit.md",
+    "skills/celebrity/wangshuo/knowledge/research/reviews/synthesis.md"
+  ],
+  "summary": "王烁式写作与分析能力：新闻人的二阶判断、问题驱动的跨界索引、反简单答案、风险/不确定性分离和信任资产优先。",
+  "type": "celebrity",
+  "lifecycle": {
+    "status": "active",
+    "created_at": "2026-05-08T14:36:55.812863+00:00",
+    "updated_at": "2026-05-08T14:36:55.812863+00:00",
+    "version": "v1"
+  },
+  "generation": {
+    "engine": "dot-skill",
+    "character": "celebrity",
+    "research_profile": "budget-unfriendly",
+    "preset": "dot.celebrity.v1",
+    "prompt_bundle": {
+      "preset": "dot.celebrity.v1",
+      "intake": "prompts/celebrity/intake.md",
+      "research": "prompts/celebrity/research.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md",
+      "merger": "prompts/celebrity/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {
+      "research": "prompts/celebrity/budget_unfriendly/research.md",
+      "audit": "prompts/celebrity/budget_unfriendly/audit.md",
+      "synthesis": "prompts/celebrity/budget_unfriendly/synthesis.md",
+      "validation": "prompts/celebrity/budget_unfriendly/validation.md",
+      "persona_analyzer": "prompts/celebrity/budget_unfriendly/persona_analyzer.md",
+      "persona_builder": "prompts/celebrity/budget_unfriendly/persona_builder.md"
+    },
+    "research_profile_references": [
+      "references/celebrity_budget_unfriendly_framework.md",
+      "references/celebrity_budget_unfriendly_template.md"
+    ],
+    "merge_strategy": "deep",
+    "quality_profile": "budget-unfriendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails",
+      "research/raw",
+      "research/merged",
+      "research/reviews",
+      "transcripts",
+      "subtitles"
+    ],
+    "storage_root": "skills/celebrity",
+    "research_tools": {
+      "subtitle_downloader": "tools/research/download_subtitles.sh",
+      "subtitle_cleaner": "tools/research/srt_to_transcript.py",
+      "research_merger": "tools/research/merge_research.py",
+      "quality_check": "tools/research/quality_check.py"
+    },
+    "created_from": [
+      "articles/wangshuo/",
+      "skills/celebrity/wangshuo/knowledge/research/raw/",
+      "skills/celebrity/wangshuo/knowledge/research/merged/summary.md",
+      "skills/celebrity/wangshuo/knowledge/research/reviews/research_audit.md",
+      "skills/celebrity/wangshuo/knowledge/research/reviews/synthesis.md"
+    ],
+    "corrections_count": 0
+  },
+  "source_context": {
+    "domain": "public",
+    "relationship_to_user": "public_figure",
+    "is_real_person": true,
+    "is_public_figure": true,
+    "is_fictional": false
+  },
+  "engine": {
+    "name": "dot-skill",
+    "kind": "meta-skill",
+    "character": "celebrity",
+    "research_profile": "budget-unfriendly",
+    "preset": "dot.celebrity.v1",
+    "prompt_bundle": {
+      "preset": "dot.celebrity.v1",
+      "intake": "prompts/celebrity/intake.md",
+      "research": "prompts/celebrity/research.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md",
+      "merger": "prompts/celebrity/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {
+      "research": "prompts/celebrity/budget_unfriendly/research.md",
+      "audit": "prompts/celebrity/budget_unfriendly/audit.md",
+      "synthesis": "prompts/celebrity/budget_unfriendly/synthesis.md",
+      "validation": "prompts/celebrity/budget_unfriendly/validation.md",
+      "persona_analyzer": "prompts/celebrity/budget_unfriendly/persona_analyzer.md",
+      "persona_builder": "prompts/celebrity/budget_unfriendly/persona_builder.md"
+    },
+    "research_profile_references": [
+      "references/celebrity_budget_unfriendly_framework.md",
+      "references/celebrity_budget_unfriendly_template.md"
+    ],
+    "merge_strategy": "deep",
+    "quality_profile": "budget-unfriendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails",
+      "research/raw",
+      "research/merged",
+      "research/reviews",
+      "transcripts",
+      "subtitles"
+    ],
+    "storage_root": "skills/celebrity",
+    "research_tools": {
+      "subtitle_downloader": "tools/research/download_subtitles.sh",
+      "subtitle_cleaner": "tools/research/srt_to_transcript.py",
+      "research_merger": "tools/research/merge_research.py",
+      "quality_check": "tools/research/quality_check.py"
+    }
+  },
+  "schema_version": "3",
+  "slug": "wangshuo",
+  "kind": "meta-skill",
+  "subtype": null,
+  "preset": "dot.celebrity.v1",
+  "id": "meta-skill.celebrity.wangshuo",
+  "artifacts": {
+    "combined_skill": "SKILL.md",
+    "work_skill": "work_skill.md",
+    "persona_skill": "persona_skill.md",
+    "work_doc": "work.md",
+    "persona_doc": "persona.md",
+    "manifest": "manifest.json",
+    "combined_name": "celebrity_wangshuo",
+    "work_name": "celebrity_wangshuo_work",
+    "persona_name": "celebrity_wangshuo_persona",
+    "combined_command": "celebrity-wangshuo",
+    "work_command": "celebrity-wangshuo-work",
+    "persona_command": "celebrity-wangshuo-persona"
+  },
+  "compat": {
+    "legacy_command": "/create-icon",
+    "legacy_storage_root": "skills/celebrity",
+    "legacy_type": "celebrity"
+  },
+  "created_at": "2026-05-08T14:36:55.812863+00:00",
+  "updated_at": "2026-05-08T14:36:55.812863+00:00",
+  "version": "v1",
+  "corrections_count": 0
+}

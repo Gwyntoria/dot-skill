@@ -39,3 +39,5 @@ Thumbs.db
 skills/celebrity/*
 !skills/celebrity/hecaitou/
 !skills/celebrity/hecaitou/**
+!skills/celebrity/wangshuo/
+!skills/celebrity/wangshuo/**
