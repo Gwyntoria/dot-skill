@@ -1,0 +1,203 @@
+{
+  "name": "和菜头 / 槽边往事",
+  "display_name": "和菜头 / 槽边往事",
+  "character": "celebrity",
+  "research_profile": "budget-unfriendly",
+  "classification": {
+    "language": "zh-CN",
+    "tags": [
+      "写作能力",
+      "公众号",
+      "中文互联网",
+      "杂文",
+      "表达风格",
+      "平台判断",
+      "AI 工具判断"
+    ],
+    "gallery_category": "Celebrity"
+  },
+  "profile": {
+    "identity": "公众号《槽边往事》作者",
+    "occupation": "中文互联网写作者",
+    "known_for": "日常观察、杂文写作、读者关系、平台与工具判断",
+    "specialty": "从具体场景拆出人性、动机、责任和判断标准"
+  },
+  "summary": "和菜头 / 槽边往事，基于本地 2026 年 3-4 月文章与公开来源蒸馏的写作判断、表达结构和人物风格 Skill。",
+  "tags": [
+    "hecaitou",
+    "槽边往事",
+    "写作",
+    "公众号",
+    "celebrity",
+    "budget-unfriendly"
+  ],
+  "knowledge_sources": [
+    "articles/hecaitou/2026-03.md",
+    "articles/hecaitou/2026-04.md",
+    "skills/celebrity/hecaitou/knowledge/research/raw/",
+    "skills/celebrity/hecaitou/knowledge/research/merged/summary.md",
+    "skills/celebrity/hecaitou/knowledge/research/reviews/research_audit.md",
+    "skills/celebrity/hecaitou/knowledge/research/reviews/synthesis.md",
+    "skills/celebrity/hecaitou/knowledge/research/reviews/validation.md",
+    "https://www.hecaitou.com/2026/03/WeChat-Reading-Tip.html",
+    "https://www.hecaitou.com/2026/04/No-Article-Left-Overnight.html",
+    "https://www.hecaitou.com/2026/02/A-Reply-from-He-Caitou-Himself.html",
+    "https://news.sina.com.cn/c/sd/2009-12-25/144519338813_2.shtml",
+    "https://mt.sohu.com/20160616/n454761887.shtml"
+  ],
+  "type": "celebrity",
+  "lifecycle": {
+    "status": "active",
+    "created_at": "2026-05-08T12:04:18.166262+00:00",
+    "updated_at": "2026-05-08T12:04:18.166262+00:00",
+    "version": "v1"
+  },
+  "generation": {
+    "engine": "dot-skill",
+    "character": "celebrity",
+    "research_profile": "budget-unfriendly",
+    "preset": "dot.celebrity.v1",
+    "prompt_bundle": {
+      "preset": "dot.celebrity.v1",
+      "intake": "prompts/celebrity/intake.md",
+      "research": "prompts/celebrity/research.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md",
+      "merger": "prompts/celebrity/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {
+      "research": "prompts/celebrity/budget_unfriendly/research.md",
+      "audit": "prompts/celebrity/budget_unfriendly/audit.md",
+      "synthesis": "prompts/celebrity/budget_unfriendly/synthesis.md",
+      "validation": "prompts/celebrity/budget_unfriendly/validation.md",
+      "persona_analyzer": "prompts/celebrity/budget_unfriendly/persona_analyzer.md",
+      "persona_builder": "prompts/celebrity/budget_unfriendly/persona_builder.md"
+    },
+    "research_profile_references": [
+      "references/celebrity_budget_unfriendly_framework.md",
+      "references/celebrity_budget_unfriendly_template.md"
+    ],
+    "merge_strategy": "deep",
+    "quality_profile": "budget-unfriendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails",
+      "research/raw",
+      "research/merged",
+      "research/reviews",
+      "transcripts",
+      "subtitles"
+    ],
+    "storage_root": "skills/celebrity",
+    "research_tools": {
+      "subtitle_downloader": "tools/research/download_subtitles.sh",
+      "subtitle_cleaner": "tools/research/srt_to_transcript.py",
+      "research_merger": "tools/research/merge_research.py",
+      "quality_check": "tools/research/quality_check.py"
+    },
+    "created_from": [
+      "articles/hecaitou/2026-03.md",
+      "articles/hecaitou/2026-04.md",
+      "skills/celebrity/hecaitou/knowledge/research/raw/",
+      "skills/celebrity/hecaitou/knowledge/research/merged/summary.md",
+      "skills/celebrity/hecaitou/knowledge/research/reviews/research_audit.md",
+      "skills/celebrity/hecaitou/knowledge/research/reviews/synthesis.md",
+      "skills/celebrity/hecaitou/knowledge/research/reviews/validation.md",
+      "https://www.hecaitou.com/2026/03/WeChat-Reading-Tip.html",
+      "https://www.hecaitou.com/2026/04/No-Article-Left-Overnight.html",
+      "https://www.hecaitou.com/2026/02/A-Reply-from-He-Caitou-Himself.html",
+      "https://news.sina.com.cn/c/sd/2009-12-25/144519338813_2.shtml",
+      "https://mt.sohu.com/20160616/n454761887.shtml"
+    ],
+    "corrections_count": 0
+  },
+  "source_context": {
+    "domain": "public",
+    "relationship_to_user": "public_figure",
+    "is_real_person": true,
+    "is_public_figure": true,
+    "is_fictional": false
+  },
+  "engine": {
+    "name": "dot-skill",
+    "kind": "meta-skill",
+    "character": "celebrity",
+    "research_profile": "budget-unfriendly",
+    "preset": "dot.celebrity.v1",
+    "prompt_bundle": {
+      "preset": "dot.celebrity.v1",
+      "intake": "prompts/celebrity/intake.md",
+      "research": "prompts/celebrity/research.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md",
+      "merger": "prompts/celebrity/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {
+      "research": "prompts/celebrity/budget_unfriendly/research.md",
+      "audit": "prompts/celebrity/budget_unfriendly/audit.md",
+      "synthesis": "prompts/celebrity/budget_unfriendly/synthesis.md",
+      "validation": "prompts/celebrity/budget_unfriendly/validation.md",
+      "persona_analyzer": "prompts/celebrity/budget_unfriendly/persona_analyzer.md",
+      "persona_builder": "prompts/celebrity/budget_unfriendly/persona_builder.md"
+    },
+    "research_profile_references": [
+      "references/celebrity_budget_unfriendly_framework.md",
+      "references/celebrity_budget_unfriendly_template.md"
+    ],
+    "merge_strategy": "deep",
+    "quality_profile": "budget-unfriendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails",
+      "research/raw",
+      "research/merged",
+      "research/reviews",
+      "transcripts",
+      "subtitles"
+    ],
+    "storage_root": "skills/celebrity",
+    "research_tools": {
+      "subtitle_downloader": "tools/research/download_subtitles.sh",
+      "subtitle_cleaner": "tools/research/srt_to_transcript.py",
+      "research_merger": "tools/research/merge_research.py",
+      "quality_check": "tools/research/quality_check.py"
+    }
+  },
+  "schema_version": "3",
+  "slug": "hecaitou",
+  "kind": "meta-skill",
+  "subtype": null,
+  "preset": "dot.celebrity.v1",
+  "id": "meta-skill.celebrity.hecaitou",
+  "artifacts": {
+    "combined_skill": "SKILL.md",
+    "work_skill": "work_skill.md",
+    "persona_skill": "persona_skill.md",
+    "work_doc": "work.md",
+    "persona_doc": "persona.md",
+    "manifest": "manifest.json",
+    "combined_name": "celebrity_hecaitou",
+    "work_name": "celebrity_hecaitou_work",
+    "persona_name": "celebrity_hecaitou_persona",
+    "combined_command": "celebrity-hecaitou",
+    "work_command": "celebrity-hecaitou-work",
+    "persona_command": "celebrity-hecaitou-persona"
+  },
+  "compat": {
+    "legacy_command": "/create-icon",
+    "legacy_storage_root": "skills/celebrity",
+    "legacy_type": "celebrity"
+  },
+  "created_at": "2026-05-08T12:04:18.166262+00:00",
+  "updated_at": "2026-05-08T12:04:18.166262+00:00",
+  "version": "v1",
+  "corrections_count": 0
+}

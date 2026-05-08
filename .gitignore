@@ -1,5 +1,6 @@
 # Generated dot-skill outputs (user data, not committed)
 skills/*
+articles/
 !skills/colleague/
 skills/colleague/*
 !skills/colleague/example_zhangsan/
@@ -32,3 +33,9 @@ knowledge/
 # OS
 .DS_Store
 Thumbs.db
+
+# Committed celebrity skills
+!skills/celebrity/
+skills/celebrity/*
+!skills/celebrity/hecaitou/
+!skills/celebrity/hecaitou/**
