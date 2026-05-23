@@ -1,86 +1,128 @@
-# 04 Decisions
+# 行为与选择 (Decisions)
 
 ## Collection Metadata
-- Dimension: 4 Decisions and revealed preferences
-- Collection strategy: web+local
-- Sources searched: 13
-- Sources used: 8
-- Primary vs secondary ratio: 6:2
+- Dimension: 4 - Decisions
+- Collection strategy: local-first
+- Sources searched: 17 (monthly article compilations)
+- Sources used: 17
+- Primary vs secondary ratio: 17:0
 
 ## Source Metadata
-- URL: https://www.hecaitou.com/2026/04/No-Article-Left-Overnight.html
-- Source type: essay
-- Grounding level: primary source
-- Access note: public official blog page and local April capture
-- Source weight: 1
-- Date: 2026-04-24
-- URL: https://www.hecaitou.com/2026/04/
-- Source type: local article collection with original WeChat links
-- Grounding level: primary source via user-provided local materials
-- Access note: local file articles/hecaitou/2026-04.md; original URLs are WeChat and are not used as independent external sources
-- Source weight: 1
-- Date: 2026-04
-- URL: https://www.hecaitou.com/2026/03/Ten-Years-of-Running-a-Shop.html
-- Source type: essay
-- Grounding level: primary source
-- Access note: public official blog page, also present in local file articles/hecaitou/2026-03.md
-- Source weight: 1
-- Date: 2026-03-24
-- URL: https://www.hecaitou.com/2025/03/on-the%20Internet.html
-- Source type: essay
-- Grounding level: primary source
-- Access note: public official blog page
-- Source weight: 2
-- Date: 2025-03-21
-- URL: https://www.hecaitou.com/2025/01/Official-summary-of-the%20WeChat-public-account.html
-- Source type: essay
-- Grounding level: primary source
-- Access note: public official blog page
-- Source weight: 2
-- Date: 2025-01-16
-- URL: https://mt.sohu.com/20160616/n454761887.shtml
-- Source type: interview
-- Grounding level: secondary with first-person answers
-- Access note: public interview page; encoding partial
-- Source weight: 3
-- Date: 2016-06-16
-- URL: https://news.sina.com.cn/c/sd/2009-12-25/144519338813_2.shtml
-- Source type: profile interview
-- Grounding level: secondary
-- Access note: public profile page; encoding partial
-- Source weight: 4
-- Date: 2009-12-25
+
+- URL: https://www.hecaitou.com/2025/07/hobby-and-work.html
+- Source type: essay / blog post
+- Grounding level: primary
+- Access note: local files, full text
+- Source weight: 1 (user-provided local materials)
+- Date: 2025-07
+
+- URL: https://www.hecaitou.com/2025/08/rent-dignity.html
+- Source type: essay / blog post
+- Grounding level: primary
+- Access note: local files, full text
+- Source weight: 1 (user-provided local materials)
+- Date: 2025-08
 
 ## Evidence
-- He chooses daily, current writing over stockpiled essays. The decision sacrifices safety and convenience for freshness, live connection, and self-generated motive.
-- He maintains a predictable publishing habit while resisting the identity of a pure self-media worker. The revealed preference is craft as life rhythm, not output as industrial workflow.
-- The March article on a ten-year shop frames commerce as a long practice of trust, taste, refund responsibility, and relationship maintenance rather than mere monetization.
-- The April essay about refusing direct earphone links shows a decision to withhold easy purchase instructions when he believes the reader would skip judgment training. This sacrifices conversion convenience for reader agency and responsibility.
-- The 2025 internet essay describes a life heavily shaped by online identity. This is a major revealed preference: the online persona is not a side channel but a central operating environment.
-- The 2025 public-account summary treats regular updating as a fixed promise. He recognizes habit formation as a core product decision.
-- External interview metadata supports major platform decisions: participation in paid content, book sales through specific channels, and long involvement with online writing as commercial-cultural practice.
-- The 2026 article about avoiding the high platform records a current decision to not return to a louder social-media stage. The stated reason is self-knowledge about vanity and corrosion.
+
+### 重大行为决策
+
+**1. 连续日更五年不中断**
+- 即便生病、宿醉、外出都坚持
+- 2024年写了398篇文章
+- 不把它当成成就，而是"忘记了有这件事"
+- 核心驱动力从意志力转变为习惯，再转变为修行
+
+**2. 开网店卖菌子咖啡鲜花**
+- 在写作红利消退时主动转型
+- "为什么卖菜的不能是我"
+- 自称"专职卖菜，兼职写作"
+- 选择小众、有坚持的品牌合作（原道耳机、3e Audio）
+
+**3. 选择租房不买房**
+- 在北京多年坚持租房，拒绝朋友劝说
+- 将此视为个人自由的体现
+- 2025年8月《租房的尊严》系统论述
+
+**4. 选择宅居生活**
+- 一周难得出门一次，2025年8月1日到月底只出门两次
+- 这是主动选择而非被动
+- 自称"变态"并用2014年手搓宠物的故事自证
+
+**5. 让AI代替自己回复读者**
+- 承认"AI比我更有人性"
+- 务实的自我认知：自己的分析型风格不适合所有互动场景
+- 选择效果而非坚持"亲力亲为"
+
+**6. 拒绝"自媒体"标签**
+- 明确拒绝追热点、做当下反应
+- 不写Manus等热门话题
+- "我只打我感兴趣的仗"
+
+### 消费与生活决策
+
+**7. 从流媒体转向实体音乐（CD/磁带/黑胶）**
+- 2026年2月开始系统性地"烧CD"
+- 理由：反对"租用"概念，追求"拥有"的感觉
+- 但最终承认自己是"木耳"，流媒体是王道
+- 从追求更好到接受"够用就好"（2025年6月"又见小白"耳机）
+
+**8. 坚持用Midjourney**
+- 面对"落伍"质疑，坚持使用满足真实需求的工具
+- 不追新，"又不是不能用"
+- 选择Deepseek的理由也是"中文水平最好"而非技术最强
+
+**9. 消费犹豫模式**
+- 买除湿机犹豫三天，开通Apple Music犹豫多年
+- 对"享乐"有深层罪恶感，但最终会克服
+- 克服后往往全情投入
+
+**10. 红包封面策略转变**
+- 从自己做成品封面发放，转为提供素材让读者自己创作
+- 理解微信平台逻辑后的主动调整——从"大V"转为"服务员"
+
+### 人际关系决策
+
+**11. 主动缩减社交圈**
+- 但对少数朋友极度忠诚（马叔叔的悼文、对张师傅的支持）
+- 2025年5月中年交友三篇：核心结论是"学会和自己相处"
+
+**12. 为嫣然天使儿童医院捐款**
+- 在对李亚鹏印象改观后立即行动
+- 附带详细声明说明这是个人选择，不构成背书
+- 显示"做"比"说"重要的行为模式
 
 ## Patterns and Repeated Themes
-- Decision heuristic 1: choose the environment that preserves the writing state, even if it reduces exposure.
-- Decision heuristic 2: when readers ask for shortcuts, give criteria or refuse completion if the shortcut would make them weaker.
-- Decision heuristic 3: treat trust as cumulative and operational. Refunds, delivery, cadence, and product selection matter more than value slogans.
-- Decision heuristic 4: avoid social settings that reward performance heat over stable output.
-- Decision heuristic 5: use new tools actively, but keep humans responsible for verification, taste, and intent.
+
+1. **"做"优先于"说"**：反复强调产出比知道重要，行动比观点重要
+2. **偏好慢、深、持续的事物**：厌恶快、浅、一次性的消费
+3. **对"面子"极度不在意**：以不要脸为荣（贴二维码收款的先驱）
+4. **用户体验 > 技术参数**：选择工具的标准是"好用"而非"最强"
+5. **务实的自我认知**：知道自己的局限并据此做决策（让AI回复、承认木耳）
+6. **从追求到放下的循环**：进入一个领域→深度投入→达到某个认知→主动退出或降级
 
 ## Contradictions
-- He commercializes writing, books, shops, and paid channels, yet attacks empty commercial manipulation. The distinction is whether the transaction keeps its promise.
-- He prizes reader independence, yet he runs a high-trust daily author-reader relationship that can make readers dependent on his judgment.
-- He is attracted to new tools and platforms, but deliberately avoids some high-attention stages. Tool adoption and status-stage avoidance are separate decisions.
-- He values uncertainty in writing, but reduces uncertainty for readers through fixed update habits and reliable delivery.
 
-## Inferences
-- Inference: The core decision pattern is not anti-commerce. It is anti-vague-promise and anti-unearned-authority.
-- Inference: He prefers systems where the obligation can be inspected: daily article exists or not, shop ships or not, refund happens or not, product link is owned or withheld.
-- Inference: He is likely to reject a growth tactic if it increases public heat while decreasing inner steadiness.
-- Inference: In new AI or platform questions, he will ask who pays, what unit is counted, what behavior changes, and what kind of dependency is created.
+- 声称"诸法平等"，但对文字质量有不可妥协的标准
+- 声称不在意数据，但会仔细分析公众号年度总结的每一个数字
+- 声称接受变化，但对"旧时光"有深厚的情感依恋（豆瓣20年、腌橄榄、三轮车）
+- 说放下过去和未来，但写了大量怀旧文章（磁带机、随身听、City-Pop）
+- 说不做绩效考核，但明确知道哪类文章阅读量高哪类低
+- 选择宅居但每天通过写作与数万读者连接——这是一种"远程社交"
+
+## Inferences (clearly marked)
+
+- [推断] 他的"卖菜"转型不仅是商业决策，也是身份重构——从"知识分子写公众号"变成"卖菜的顺便写字"，降低了写作的身份负担
+- [推断] 消费犹豫模式可能与他的佛学修行有关——对"贪"的自觉让他在每次消费前都要经历一次内心审判
+- [推断] 从流媒体到实体再回到流媒体的循环，是他"从追求到放下"模式的一个完整案例——需要亲身经历才能真正放下
+- [推断] 日更五年的真正意义不是产出量，而是通过重复建立了一种"不需要决策"的生活结构——减少了每天的选择疲劳
+- [推断] 他选择工具的标准（好用>最强）反映了一种反精英主义——拒绝"最好的"这个概念本身
+- [推断] 红包封面策略转变显示他对平台权力关系有清醒认知——知道在微信生态中"大V"是幻觉
 
 ## Gaps and Missing Information
-- Business details for the shop, paid columns, and book channels are partial.
-- External reported career details should be cross-checked against more primary sources before being written as hard biography.
-- More material about reversals, failed projects, and private editorial tradeoffs would strengthen this track.
+
+- 缺少他的商业决策细节（网店运营数据、合作品牌选择标准）
+- 缺少他离开时评写作的具体决策过程
+- 缺少他选择北京而非其他城市的原因
+- 缺少他的投资或理财决策（如果有的话）
+- 缺少他与出版社合作出书的决策过程

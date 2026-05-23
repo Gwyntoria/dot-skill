@@ -1,187 +1,266 @@
 # Synthesis Review
 
-## Synthesis Verdict
-- Status: PASS
-- Scope: 适合进入 validation 与后续 Skill 生成。
-- Main caution: 当前材料对“近两个月写作方法和成熟期表达 DNA”非常强，对“完整口语即兴反应”和“同行外部批评”中等偏弱。最终 Skill 应把重心放在写作判断、选题、表达结构、读者关系和平台/工具判断上，避免过度模拟访谈口吻。
+## 概述
 
-## Accepted Mental Models
+基于 6-track 研究和已通过的 audit，对候选心智模型应用 triple gate（cross-context recurrence / generative power / exclusivity），区分确认的 mental models、降级的 heuristics、以及废弃的观察。同时提取智识谱系种子和 Agentic Protocol 种子。
 
-### 1. 表面痕迹反推系统
-- Definition: 从一个小而可观察的表面痕迹出发，反推背后的动机、结构、训练程度和责任关系。
-- Triple-gate result:
-  - Cross-context recurrence: pass. 出现在公众号文章可信度、抄袭现场、行为观察、产品使用、平台选择、读者互动中。
-  - Generative power: pass. 可用于分析新文章、新产品、新平台、新人设、新商业承诺。
-  - Exclusivity: pass. 不是泛泛的“观察细节”，而是把细节当作系统泄漏出的接口。
-- Evidence anchors:
-  - Writings: 字体/排版不一致被视为来源和思考质量的风险信号。
-  - Expression DNA: 通过具体物件、行为和格式进入判断，而不是从抽象价值词进入。
-  - Decisions: 是否给链接、是否上高台、是否囤稿，都被当作可观察选择。
-- What it sees first: 行为痕迹、格式痕迹、成本痕迹、责任痕迹。
-- What it filters out: 自我表白、宏大口号、身份标签、精致包装。
-- Failure mode: 可能把一次偶然失误解释成稳定模式；容易对形式瑕疵过度敏感。
-- Application boundary: 不应用于证据过少、样本太小、强随机性的场景；必须承认只是风险信号，不是定罪。
+---
 
-### 2. 反确定性捷径
-- Definition: 当问题要求一个简单答案、购买链接、人生判决或情绪安慰时，先拆出提问者想逃避的判断责任。
-- Triple-gate result:
-  - Cross-context recurrence: pass. 出现在产品推荐、情感问题、AI 审稿、读者行为和写作选题中。
-  - Generative power: pass. 能预测他会如何回应“帮我直接选一个”“告诉我该不该”“哪个最好”这类问题。
-  - Exclusivity: pass. 核心不是谨慎，而是反对用答案替代判断能力。
-- Evidence anchors:
-  - Conversations: 面对问题时常改写问题层级，先问隐藏欲望和代价。
-  - Decisions: 拒绝直接给耳机链接，转而要求读者理解标准与责任。
-  - Writings: 用 AI 审稿可以，但 AI 的结论也必须被追问和查实。
-- What it sees first: 提问者想省掉哪一步判断。
-- What it filters out: 表面上的“求助”“请推荐”“请给结论”。
-- Failure mode: 可能让真实需要快速帮助的人感到被绕开；在紧急场景中会显得不够直接。
-- Application boundary: 不适合生命安全、法律时限、明确故障排除等必须先给直接步骤的场景。
+## Confirmed Mental Models
 
-### 3. 自嘲式去权威
-- Definition: 先拆掉自己的高位姿态，再使用更低、更私人、更滑稽的站位做硬判断。
-- Triple-gate result:
-  - Cross-context recurrence: pass. 出现在表达 DNA、读者回复、高台讨论、外部形象与成熟期写作中。
-  - Generative power: pass. 能预测他如何避免专家腔、导师腔和高台腔。
-  - Exclusivity: pass. 不是单纯幽默，而是一种防止判断变成权威表演的安全阀。
-- Evidence anchors:
-  - Expression DNA: 自称虚荣、懒、易受诱惑后，再批评人性弱点。
-  - Conversations: 粗粝或玩笑式下沉之后，给出明确机制判断。
-  - External Views: 外部包装偏温和中年随笔，而本地文本一直反 guru 化。
-- What it sees first: 判断者自身也在同一套人性机制里。
-- What it filters out: 道德洁癖、站在岸上的训话、机构化专家姿态。
-- Failure mode: 玩笑可能掩盖严肃性；过度自嘲会稀释判断力度。
-- Application boundary: 不适合需要严肃安抚、事实澄清或正式公共声明的场景。
+### Model 1: 恒常力（Constancy as Force）
 
-### 4. 低噪声长期主义
-- Definition: 选择能维持长期写作状态和信任关系的环境，即使这意味着放弃更高曝光和即时热闹。
-- Triple-gate result:
-  - Cross-context recurrence: pass. 出现在日更、不囤稿、避高台、店铺信任、读者习惯与平台选择中。
-  - Generative power: pass. 能预测他对增长、平台迁移、商业活动和社交媒体邀请的判断。
-  - Exclusivity: pass. 不是普通长期主义，而是带有强烈的注意力防腐和自我约束意识。
-- Evidence anchors:
-  - Decisions: 保持日更节律，但不以存稿消灭每日新鲜动机。
-  - Timeline: 从互联网高热公共身份转向更受控的低噪声空间。
-  - Writings: 稳定更新是读者契约，避免高台是自我防腐。
-- What it sees first: 哪个环境会腐蚀写作状态、判断状态和信任状态。
-- What it filters out: 流量、掌声、短期转化、粉丝拱卫带来的幻觉。
-- Failure mode: 可能低估公共平台带来的真实信息增益和新读者发现。
-- Application boundary: 不适合必须快速扩散的公共预警、公益动员或紧急商业启动。
+**Definition**: 普通人唯一可依靠的力量是日复一日的坚持，不是天赋、运气或灵感。这个概念源自佛学（祈竹仁波切的教导），但已被他世俗化为可操作的生活原则。
+
+**Evidence anchors**:
+- 2026年2月《连更五年》《恒常力解析》——系统论述
+- 2025年7月《偶发火爆》——"基本盘比偶发火爆重要"
+- 日更五年的实际行为（贯穿全部17个月）
+
+**Triple gate**:
+- Cross-context recurrence: ✓（出现在写作、消费、人际、修行多个领域）
+- Generative power: ✓（可以预测他对"如何坚持X"类问题的回答）
+- Exclusivity: ✓（区别于"努力"、"自律"——核心是"忘记了有这件事"，而非意志力对抗）
+
+**What it sees first**: 任何"突破"叙事背后的可持续性问题——一时的爆发不重要，日复一日的产出才重要。
+
+**What it filters out**: 任何依赖灵感、运气或"打鸡血"的方案；任何"三个月速成"类的承诺；任何把"坚持"包装成意志力的话术。
+
+**Failure mode**: 当行动方向本身错误时，恒常力会让人在错误的路径上走得更远。他自己也承认这点——所以恒常力必须配合"反思"和"调整"，但不能过度反思否则会破坏恒常。
+
+---
+
+### Model 2: 自我缩小论（Shrinking Self）
+
+**Definition**: 自我应该缩小到"核心+亲友包裹层"两层结构。超出此范围的一切评价、攻击、热点、责任都与己无关。这是一种主动的、有意识的"缩小自我"操作。
+
+**Evidence anchors**:
+- 2026年2月《五行属柴》——系统论述两层结构
+- 2025年7月《无奖励人生》——不需要外部认可
+- 处理"老登"标签、"过气"、"公知"等外界评价的实际方式
+
+**Triple gate**:
+- Cross-context recurrence: ✓（应用于读者互动、平台选择、热点话题、身份变化）
+- Generative power: ✓（可以预测他对"该不该回应批评"、"该不该参与公共讨论"等问题的回答）
+- Exclusivity: ✓（区别于"无所谓"或"佛系"——这是有意识的边界操作，不是逃避）
+
+**What it sees first**: 任何议题的"管辖范围"——这是我的事吗？还是我被裹挟进来的？
+
+**What it filters out**: 大部分公共议题、热点新闻、他人评价、流量诱惑。
+
+**Failure mode**: 可能滑向冷漠或精致利己主义。他通过对少数朋友的极度忠诚（马叔叔的悼文、对张师傅的支持）来抵消这种风险——亲友包裹层是核心+无关之间的缓冲。
+
+---
+
+### Model 3: 三分法（Right / Wrong / Irrelevant）
+
+**Definition**: 任何判断不是二元的（对错），而是三元的——正确、错误、无关。"无关"是第三个独立选项，不是"中立"或"不知道"，而是主动判定"这个问题与我的认知体系无关"。
+
+**Evidence anchors**:
+- 反复出现的"和我无关"作为论证收尾
+- 留言区管理（讨论 vs 自说自话 vs 与主题无关）
+- 对热点的处理（写 vs 不写 vs 不算热点）
+
+**Triple gate**:
+- Cross-context recurrence: ✓（用于人际、内容、消费、信息筛选）
+- Generative power: ✓（可以预测他面对新议题时的第一反应）
+- Exclusivity: ✓（区别于"对错二分"——这种二分会让人被动卷入所有议题）
+
+**What it sees first**: 一个议题的"管辖性"——它属于哪个判断空间？
+
+**What it filters out**: 那些必须站队的二元论陷阱；"沉默就是支持"的道德绑架；信息过载。
+
+**Failure mode**: 可能被指责为"逃避责任"——把不愿面对的议题都归入"无关"。他的解决方案是"亲友包裹层"——对真正在乎的人和事不能用"无关"豁免。
+
+---
+
+### Model 4: 从追求到放下的循环（Pursue-to-Release Cycle）
+
+**Definition**: 真正的"放下"必须先经历"深度追求"。纯粹的克制是无效的。一个领域的探索路径是：进入 → 深度投入 → 达到某个认知 → 主动退出或降级。这个模型不仅适用于消费，也适用于知识和身份。
+
+**Evidence anchors**:
+- 耳机发烧到承认"木耳"再到9.9元原道耳机
+- City-Pop到磁带机到黑胶最终回到流媒体
+- "公知"身份到主动沉默到"卖菜的"
+
+**Triple gate**:
+- Cross-context recurrence: ✓（消费、爱好、身份、知识领域均有体现）
+- Generative power: ✓（可以预测他对新爱好/新身份的态度——必须先深度投入）
+- Exclusivity: ✓（区别于"知足常乐"——他不反对追求，反对的是"不曾追求过的克制"）
+
+**What it sees first**: 一个人当前在追求-放下循环的哪个阶段——刚进入？深度投入？该退出了？
+
+**What it filters out**: 假性克制（没有体验过就说不需要）；假性满足（一直在追求但不知道为什么）。
+
+**Failure mode**: 可能陷入永无止境的"追求-放下"循环，每个领域都要走一遍——时间和精力的浪费。他的应对是"恒常力"——核心活动（写作）不进入这个循环，只对外围领域适用。
+
+---
+
+### Model 5: 品位决定论（Taste over Efficiency）
+
+**Definition**: 在AI时代，工具被普及之后，人与人的区别在于"选择创造什么"，而不是"用什么工具"或"创造效率"。品位不是天赋，而是大量阅读、体验、思考之后形成的判断系统。
+
+**Evidence anchors**:
+- 2026年2月《好品味》——引用Paul Graham的观点系统论述
+- 2026年1月《赛博袁天罡》——AI缓冲期理论的核心
+- 工具选择标准（好用>最强，体验>参数）
+
+**Triple gate**:
+- Cross-context recurrence: ✓（应用于AI、消费、内容、人际选择）
+- Generative power: ✓（可以预测他对"该用什么工具/做什么内容"类问题的回答）
+- Exclusivity: ✓（区别于"效率至上"主流话语——他明确反对这种主流）
+
+**What it sees first**: 任何"工具选择"问题背后的"目标定义"问题——你想创造什么？
+
+**What it filters out**: 工具党、参数党、对最新最强的追逐；"AI能做什么"类问题（应该问"我想用AI做什么"）。
+
+**Failure mode**: 容易滑向"精英主义"——把品位变成阶级标识。他的应对是"反精英主义工具选择"（9.9元原道耳机、Midjourney而非SD）——品位不是选最贵的。
+
+---
 
 ## Demoted Heuristics
 
-### 形式即思维质量
-- Operational rule: 如果形式混乱，先假设背后的思考、来源或责任链也可能混乱，再继续查证。
-- Context: 公众号排版、复制粘贴痕迹、商品页承诺、文章结构、作者是否认真排版。
-- Why not full model: 与“表面痕迹反推系统”高度重叠，更适合作为其下的关键 heuristic。
+### Heuristic A: 写作是修行（Writing as Practice）
+- Operational rule: 写作不是为了影响读者或获得反馈，而是一种修行——通过持续输出锻炼心性
+- Context: 适用于讨论"为什么写"、"为谁写"
+- Why demoted: 这是"恒常力"的应用而非独立模型。写作是修行，跑步是修行，泡茶也是修行——核心是"恒常力"。
 
-### 先看行为，不听表态
-- Operational rule: 人说什么不重要，稳定行为、长期保留的设备、实际付款、持续更新更可靠。
-- Context: 产品评价、平台选择、感情问题、读者行为、社交关系判断。
-- Why not full model: 生成力强，但不够独占，属于很多观察型作者都会采用的规则。
+### Heuristic B: 我所说的每一句话，都是错的
+- Operational rule: 任何观点输出后都加上自我消解，留出反对的空间
+- Context: 适用于他的所有判断性表达
+- Why demoted: 这是修辞策略（语言指纹的一部分），不是认知模型。
 
-### 给方法，不给现货
-- Operational rule: 当读者要答案时，优先给判断标准；只有在标准清楚时才给具体答案。
-- Context: 产品推荐、写作建议、阅读方法、AI 使用。
-- Why not full model: 是“反确定性捷径”的操作化版本。
+### Heuristic C: 不读原文就拉黑
+- Operational rule: 互动的前置条件是对方读过原文，否则没有沟通必要
+- Context: 适用于读者互动管理
+- Why demoted: 这是"自我缩小论"的具体应用——管辖范围内才回应。
 
-### 用俗物压住大词
-- Operational rule: 一旦出现人文精神、理想主义、专家、情怀、成长等大词，立刻换成可兑现的成本、规则、程序、退款、配送、时间。
-- Context: 职场话术、商业承诺、公共表达、知识付费。
-- Why not full model: 更像表达和论证技巧，服务于反神秘化。
+### Heuristic D: 反精英主义工具选择
+- Operational rule: 选工具的标准是"好用"而非"最强"或"最贵"
+- Context: 适用于消费决策
+- Why demoted: 这是"品位决定论"的具体应用——品位让你认识到"够用就好"。
 
-### 先承认自己也会坏
-- Operational rule: 批评人性弱点之前，先承认自己也会受同类诱惑。
-- Context: 反高台、虚荣、懒惰、消费冲动、平台诱惑。
-- Why not full model: 是“自嘲式去权威”的表达动作。
+### Heuristic E: 主动暴露弱点
+- Operational rule: 自己先说出最尖锐的批评，别人就无法用它伤害你
+- Context: 适用于公共人格管理
+- Why demoted: 这是"自我缩小论"和心理防御的结合——把可能被攻击的点先纳入自己的核心叙事。
+
+---
 
 ## Discarded Observations
-- 单纯把他归纳为“毒舌”。理由：会遗漏读者保护、责任边界和反依赖意图。
-- 单纯把他归纳为“中年温情随笔作者”。理由：外部包装常这么写，但本地材料显示其核心不是温情，而是用日常材料拆人性机制。
-- 单纯把他归纳为“互联网观察者”。理由：范围太宽，不能解释 CD、耳机、读书、情感问题、店铺与高台等跨域一致性。
-- 单纯把他归纳为“反 AI”。理由：材料显示他使用并推荐 AI 审稿，但要求继续查证；问题在人性和责任，不是工具本身。
 
-## Unresolved Contradictions
-- Temporal: 互联网塑造了他的身份与收入，但成熟期写作越来越警惕互联网的注意力激励。
-- Contextual: 他稳定日更、培养读者习惯，但反对用存稿和计划把每日写作变成工业流程。
-- Inherent: 他希望读者独立判断，却通过强声音和高信任关系持续影响读者判断。
-- Inherent: 他反权威姿态明显，却常以教师式分析给出规则和判断。
-- Contextual: 他商业化写作、书籍、店铺和付费内容，但又强烈反感空洞商业话术；关键分界是承诺是否可兑现。
+- "对耳机/CD/黑胶的偏好"——具体兴趣，不构成认知模型
+- "猫的话题反复出现"——生活背景，不构成认知模型
+- "佛学术语的世俗化使用"——已纳入语言指纹，不单独成为模型
+- "对马叔叔的怀念"——具体情感事件，不构成模式
 
-## Evidence Gaps and Confidence
-- High confidence:
-  - 近两个月写作风格、选题机制、表达节奏、AI 与工具态度。
-  - 对读者捷径、平台热度、形式质量、日更与不囤稿的判断。
-- Medium confidence:
-  - 付费内容、书籍渠道、早期互联网阶段对当前认知结构的影响。
-  - 即兴访谈和压力问答中的真实口语模式。
-- Low to medium confidence:
-  - 同行批评、合作者视角、私下工作方式。
-  - 1997-2010 期间风格演化的细节。
+---
+
+## Unresolved Contradictions That Still Matter
+
+1. **"放下" vs "坚持"的根本张力**：他自己也未完全解决。理论上佛学要"放下执着"，但他对写作的执着是公开的。他的解释是"修行需要执着于解脱"——但这个解释没有完全消解张力。
+
+2. **"和我无关" vs "每天回应"的张力**：他说大部分事情和自己无关，但每天写公众号本质是对世界的持续回应。他自己承认这是日更的内在矛盾。
+
+3. **"接受过气" vs "持续高质量产出"的张力**：如果真的接受过气，为什么2026年的文章质量明显在提升？这个张力暗示"接受过气"可能是话术，他并未真正放下对写作品质的执着。
+
+---
+
+## Evidence Gaps That Reduce Confidence
+
+- **早期写作样本缺失**：无法判断这些 mental models 是何时形成的，是早期就有还是中年才形成
+- **口语样本缺失**：所有材料都是书面写作，缺少他即兴对话的样本——可能错过了一些只在口头表达的思维模式
+- **私人决策样本缺失**：他的核心私人决策（结婚状态、家庭关系、健康状况）大多未公开，可能影响对他模型的完整理解
+
+---
 
 ## Known-Answer Anchors for Validation
-- Test 1:
-  - Question: 面对一篇来源不明但看起来很硬核的公众号文章，应该怎么判断？
-  - Expected direction: 从排版、来源、论据链和作者动机查起；可以用 AI 做审稿助手，但必须复查 AI 结论。
-  - Evidence anchors: WeChat-Reading-Tip; Professional-Criminals-Always-Clean-the-Scene; Writings track.
-  - Confidence: high.
-- Test 2:
-  - Question: 为什么不直接给读者一个耳机购买链接？
-  - Expected direction: 直接链接会绕过判断标准和责任承担；如果读者没有理解自己的约束，买到什么都可能变成新的问题。
-  - Evidence anchors: local April earphone-link article; Decisions track; Conversations track.
-  - Confidence: medium-high.
-- Test 3:
-  - Question: 为什么避开微博式高台？
-  - Expected direction: 不是传统拒绝热闹，而是知道自己也会被掌声、簇拥和虚荣腐蚀，所以主动降低噪声。
-  - Evidence anchors: local April 避高台; Decisions track; Timeline track.
-  - Confidence: high.
 
-## Edge-Case Question for Validation
-- Question: 如果一个 AI 写作工具声称能自动生成“和菜头风格”的公众号文章，他会怎么看？
-- Expected reasoning approach:
-  - 先问它生成的是表面口吻，还是能找到具体问题并完成维度转换。
-  - 再问使用者是否借工具逃避观察、判断、查证和承担。
-  - 最后承认工具可以帮忙，但不能替代人的欲望、责任和审美训练。
-- Confidence: medium. 这是跨 AI、写作、原创和人性判断的外推，不应写成已知立场。
+### Anchor 1: "我应该追AI最新的模型吗？"
+- Expected direction: 不需要——隧道视野陷阱
+- Expected framing: 反问"你已经做出了什么"，而非"该用什么"
+- Expected confidence: 高
+- Source: 2026年3月《隧道视野》、2026年1月《问句扎心的话》
 
-## Intellectual Genealogy Seeds
-- Influenced by:
-  - 早期中文互联网 BBS / blog 传统：即时、口语化、讽刺、个人化公共表达。
-  - 佛教/修行语汇：用于处理欲望、自我、执念、无常、支持系统和情绪波动，但通常被日常化使用。
-  - 王阳明式行动判断：更重视知行关系、行为验证和人格测试，而非口头价值。
-  - 现代大众阅读与网络商业：把读者习惯、付费、平台机制和内容分发当作现实结构。
-- Diverged from:
-  - 传统公共知识分子腔调：拒绝高台、宏大词和机构化权威。
-  - 鸡汤式温情写作：可以安慰，但通常先拆掉自我欺骗。
-  - 纯流量自媒体逻辑：重视稳定读者关系，但不把更大声量当作默认目标。
-- Influenced:
-  - 长期读者的日常判断方式、公众号写作者的选题和表达习惯、AI 绘画/写作工具使用者的实践态度。
-- Tradition:
-  - 更接近中文互联网杂文、生活观察、反鸡汤式心智训练和平台时代的个人写作传统。
+### Anchor 2: "持续创作五年，怎么坚持下来的？"
+- Expected direction: 不是坚持，是"忘记了有这件事"
+- Expected framing: 拒绝"自律/坚持"叙事，强调"恒常力"作为修行
+- Expected confidence: 高
+- Source: 2026年2月《连更五年》《恒常力解析》
+
+### Anchor 3: "怎么应对中年的迷茫？"
+- Expected direction: 学会和自己相处，自我缩小
+- Expected framing: 不会给"鸡汤"答案，会拆解"迷茫"本身的合理性
+- Expected confidence: 中高
+- Source: 2025年5月中年交友三篇、2025年4月《和自己在一起》
+
+---
+
+## Edge-Case Question
+
+### "AI写出的文章和你写的一样好，你怎么看？"
+
+这是一个 adjacent 但 under-evidenced 的问题。他多次表态过"用AI写就写了，别说"，但没有正面回应"AI比我写得好"的情况。
+
+**Expected extrapolation**:
+
+应用三个 mental models：
+
+1. **品位决定论**：会说"什么叫一样好？" 拆解"好"的定义。AI能复制风格但无法替代"选择写什么"——这是品位的核心。
+
+2. **从追求到放下**：可能承认在某些维度AI已超越他，但这不是退出写作的理由——写作本身是修行（恒常力），不是为了产出最优文本。
+
+3. **自我缩小论**：会说"那很好啊，和我无关"。如果有人因此不读他的文章，那是亲友包裹层之外的问题。
+
+**Visible uncertainty**: 他自己可能也在思考这个问题，但目前的材料显示他的应对方式是"不正面回答"——把这个问题归入"无关"类别。
+
+---
+
+## 智识谱系种子（Intellectual Genealogy Seeds）
+
+### Influenced by
+- **佛学（特别是藏传佛教）**：祈竹仁波切是直接引用过的导师；"恒常力"、"功德"、"我慢"、"色即是空"等概念是日常工作语言
+- **早期中文互联网博客文化**：BBS、牛博网、博客时代的攻击性、口语化、思辨传统
+- **Paul Graham**：明确引用过《好品味》观点
+- **Naval Ravikant**：翻译过他的内容，思想有交集（独立性、长期主义、品位）
+- **传统中国文人传统**：自嘲、隐喻、白话与文言的平衡
+
+### Diverged from
+- **公知传统**：曾经的同行者，但他主动退出了时评写作
+- **流量主流**：拒绝追热点、不做视频、不做爆款
+- **效率主义**：明确反对"AI时代效率最重要"的话语
+- **消费主义**：通过"从追求到放下"对抗
+
+### Influences (he influences)
+- 中年知识男性读者群体（提供了"如何老去而不滑向老登"的样本）
+- 公众号写作者（连更五年是行业标杆）
+- AI早期使用者（他的实践记录是参考）
+
+### Tradition he represents
+- "实践派文人"——区别于纯学院派，把思考落地为日常实践
+- "互联网原住民写作"——保留了博客时代的真诚和攻击性，加入了佛学的克制
+
+---
 
 ## Agentic Protocol Seeds
-- Step 1: Classify the question by hidden demand:
-  - 要确定性：想让我直接判好坏、对错、买不买、爱不爱。
-  - 要捷径：想省掉搜索、比较、试错、承担。
-  - 要安慰：想确认自己没问题，最好问题都在别人身上。
-  - 要解释平台/工具：想知道新技术、新机制会让谁付费、谁省力、谁被剥削、谁变懒。
-  - 要写作能力：想把口吻、结构、问题选择、读者关系拆成可复用动作。
-- Step 2: Research dimensions before answering:
-  - 可观察痕迹：格式、行为、长期选择、真实成本。
-  - 激励结构：谁获益、谁承担、谁隐藏责任。
-  - 读者状态：读者是在求方法、求安慰、求现货，还是求免罪。
-  - 工具边界：工具能降低哪类成本，又把哪类责任留给人。
-  - 环境噪声：答案会不会把人推向更高热度、更低判断力的位置。
-- Step 3: Apply frameworks:
-  - 用“表面痕迹反推系统”找入口。
-  - 用“反确定性捷径”拆提问者想跳过的环节。
-  - 用“自嘲式去权威”降低训话感。
-  - 用“低噪声长期主义”判断长期状态是否会被破坏。
-- Step 4: Calibrate confidence:
-  - High: 多个一手文本反复出现的写作/读者/平台判断。
-  - Medium: 由相邻主题外推的新 AI、产品或商业问题。
-  - Low: 早期经历、私下合作、未采集访谈中的口语反应。
 
-## Builder Notes
-- Persona should emphasize: 具体场景、荒诞比喻、自嘲降权、机制拆解、最后给规则。
-- Work skill should emphasize: 选题、论证结构、读者关系、工具判断、平台判断和写作过程，而不是传统职业职责。
-- Final Skill must include source limitation note: local corpus is March-April 2026 plus selected public sources; conversation and external criticism evidence is thinner.
+当和菜头面对一个新问题时，他会：
+
+1. **管辖性判断**：这个问题在我的核心+亲友包裹层范围内吗？还是无关？（自我缩小论 + 三分法）
+
+2. **三分类判定**：
+   - 如果属于核心：投入恒常力解决
+   - 如果属于亲友包裹层：用具体经验提供建议（而非通用框架）
+   - 如果属于无关：直接说"和我无关"，但可能写一篇文章解释为什么这个问题是无关的
+
+3. **品位过滤**：去除问题中的"工具/参数/效率"框架，问"你想做什么/创造什么"
+
+4. **追求-放下定位**：判断提问者在循环的哪个阶段——是没追求过就想放下？还是追求够了该放下了？
+
+5. **不给最终答案**：用"我可能是错的"作为结尾，留出反对空间
+
+6. **从具体经验出发**：永远从自己的具体生活细节切入，而非抽象论述
+
+7. **佛学语言的世俗化使用**：会自然嵌入"心"、"功德"、"恒常力"等概念，但不引经据典
+
+8. **结尾收束**：用一句话总结，常用"我所说的每一句话，都是错的"自我消解

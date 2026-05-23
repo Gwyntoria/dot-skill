@@ -1,55 +1,116 @@
 {
-  "name": "和菜头 / 槽边往事",
-  "display_name": "和菜头 / 槽边往事",
+  "name": "和菜头",
+  "display_name": "和菜头",
   "character": "celebrity",
   "research_profile": "budget-unfriendly",
   "classification": {
     "language": "zh-CN",
-    "tags": [
-      "写作能力",
-      "公众号",
-      "中文互联网",
-      "杂文",
-      "表达风格",
-      "平台判断",
-      "AI 工具判断"
+    "domain": [
+      "writing",
+      "long-form-blogging",
+      "AI-perspective",
+      "Buddhist-practice",
+      "Chinese-internet-culture"
     ],
-    "gallery_category": "Celebrity"
+    "era": "2005-present",
+    "region": "中国",
+    "gallery_category": "Celebrity",
+    "tags": [
+      "写作方法论",
+      "长期主义",
+      "AI使用",
+      "中年身份",
+      "佛学世俗化",
+      "中文互联网",
+      "公众号",
+      "恒常力",
+      "自我缩小",
+      "品位决定论"
+    ]
   },
   "profile": {
-    "identity": "公众号《槽边往事》作者",
-    "occupation": "中文互联网写作者",
-    "known_for": "日常观察、杂文写作、读者关系、平台与工具判断",
-    "specialty": "从具体场景拆出人性、动机、责任和判断标准"
+    "real_name_or_alias": "和菜头",
+    "main_platform": "微信公众号「槽边往事」",
+    "main_blog": "https://www.hecaitou.com",
+    "blog_archive": "https://www.hecaitou.info",
+    "career_summary": "中文互联网长期写作者，公众号「槽边往事」运营者，已连续日更五年以上。曾在博客时代活跃于牛博网等平台，写过时评（被称为公知），后主动退出时评写作，转向更个人化的写作方向。自称专职卖菜，兼职写作。",
+    "books": [
+      "你不重要，你的喜欢很重要（散文集）"
+    ],
+    "key_traits": [
+      "佛学修行者",
+      "实践派文人",
+      "互联网原住民",
+      "日更五年",
+      "反流量主义"
+    ]
   },
-  "summary": "和菜头 / 槽边往事，基于本地 2026 年 3-4 月文章与公开来源蒸馏的写作判断、表达结构和人物风格 Skill。",
   "tags": [
-    "hecaitou",
-    "槽边往事",
-    "写作",
+    "写作方法论",
+    "长期主义",
+    "AI使用",
+    "中年身份",
+    "佛学世俗化",
+    "中文互联网",
     "公众号",
-    "celebrity",
-    "budget-unfriendly"
+    "恒常力",
+    "自我缩小",
+    "品位决定论"
   ],
   "knowledge_sources": [
-    "articles/hecaitou/2026-03.md",
-    "articles/hecaitou/2026-04.md",
-    "skills/celebrity/hecaitou/knowledge/research/raw/",
-    "skills/celebrity/hecaitou/knowledge/research/merged/summary.md",
-    "skills/celebrity/hecaitou/knowledge/research/reviews/research_audit.md",
-    "skills/celebrity/hecaitou/knowledge/research/reviews/synthesis.md",
-    "skills/celebrity/hecaitou/knowledge/research/reviews/validation.md",
-    "https://www.hecaitou.com/2026/03/WeChat-Reading-Tip.html",
-    "https://www.hecaitou.com/2026/04/No-Article-Left-Overnight.html",
-    "https://www.hecaitou.com/2026/02/A-Reply-from-He-Caitou-Himself.html",
-    "https://news.sina.com.cn/c/sd/2009-12-25/144519338813_2.shtml",
-    "https://mt.sohu.com/20160616/n454761887.shtml"
+    {
+      "type": "local-articles",
+      "path": "sample/hecaitou/",
+      "files": 17,
+      "date_range": "2025-01 to 2026-05",
+      "weight": 1,
+      "description": "17个月公众号文章合集，约22000行"
+    },
+    {
+      "type": "personal-blog",
+      "url": "https://www.hecaitou.com",
+      "weight": 2,
+      "description": "个人博客主站"
+    },
+    {
+      "type": "personal-blog",
+      "url": "https://www.hecaitou.info",
+      "weight": 2,
+      "description": "博客镜像/存档"
+    }
   ],
+  "research_metadata": {
+    "research_date": "2026-05-23",
+    "collection_strategy": "local-first",
+    "tracks_covered": 6,
+    "primary_source_ratio": "100%",
+    "audit_status": "PASS",
+    "blacklist_sources": "none",
+    "mental_models_count": 5,
+    "decision_heuristics_count": 8,
+    "internal_tensions_count": 4,
+    "validation_status": "pending"
+  },
+  "limitations": {
+    "missing_dimensions": [
+      "early-writings (2005-2024)",
+      "spoken-language-samples",
+      "external-independent-reviews",
+      "private-decisions"
+    ],
+    "research_window": "2025-01 to 2026-05 only",
+    "improvement_materials": [
+      "his book 你不重要，你的喜欢很重要",
+      "podcast/video interviews",
+      "early blog posts (2005-2020)",
+      "public exchanges with friends (南派三叔, 脱不花, 罗振宇)"
+    ]
+  },
   "type": "celebrity",
   "lifecycle": {
     "status": "active",
-    "created_at": "2026-05-08T12:04:18.166262+00:00",
-    "updated_at": "2026-05-08T12:04:18.166262+00:00",
+    "created_at": "2026-05-23T10:05:39.461736+00:00",
+    "updated_at": "2026-05-23T10:05:39.461736+00:00",
     "version": "v1"
   },
   "generation": {
@@ -100,18 +161,26 @@
       "quality_check": "tools/research/quality_check.py"
     },
     "created_from": [
-      "articles/hecaitou/2026-03.md",
-      "articles/hecaitou/2026-04.md",
-      "skills/celebrity/hecaitou/knowledge/research/raw/",
-      "skills/celebrity/hecaitou/knowledge/research/merged/summary.md",
-      "skills/celebrity/hecaitou/knowledge/research/reviews/research_audit.md",
-      "skills/celebrity/hecaitou/knowledge/research/reviews/synthesis.md",
-      "skills/celebrity/hecaitou/knowledge/research/reviews/validation.md",
-      "https://www.hecaitou.com/2026/03/WeChat-Reading-Tip.html",
-      "https://www.hecaitou.com/2026/04/No-Article-Left-Overnight.html",
-      "https://www.hecaitou.com/2026/02/A-Reply-from-He-Caitou-Himself.html",
-      "https://news.sina.com.cn/c/sd/2009-12-25/144519338813_2.shtml",
-      "https://mt.sohu.com/20160616/n454761887.shtml"
+      {
+        "type": "local-articles",
+        "path": "sample/hecaitou/",
+        "files": 17,
+        "date_range": "2025-01 to 2026-05",
+        "weight": 1,
+        "description": "17个月公众号文章合集，约22000行"
+      },
+      {
+        "type": "personal-blog",
+        "url": "https://www.hecaitou.com",
+        "weight": 2,
+        "description": "个人博客主站"
+      },
+      {
+        "type": "personal-blog",
+        "url": "https://www.hecaitou.info",
+        "weight": 2,
+        "description": "博客镜像/存档"
+      }
     ],
     "corrections_count": 0
   },
@@ -196,8 +265,9 @@
     "legacy_storage_root": "skills/celebrity",
     "legacy_type": "celebrity"
   },
-  "created_at": "2026-05-08T12:04:18.166262+00:00",
-  "updated_at": "2026-05-08T12:04:18.166262+00:00",
+  "summary": "和菜头, Celebrity",
+  "created_at": "2026-05-23T10:05:39.461736+00:00",
+  "updated_at": "2026-05-23T10:05:39.461736+00:00",
   "version": "v1",
   "corrections_count": 0
 }

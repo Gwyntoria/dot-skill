@@ -2,87 +2,125 @@
 
 ## Verdict
 - Status: PASS
-- Reason: 六轨研究集完整，来源数量、primary 比例、矛盾条目、候选 mental models 和 known-answer bank 均达到 budget-unfriendly 的最低合成门槛。主要保留项是 Conversations 与 External Views 两轨仍偏薄，后续 Skill 必须明确标注这些边界，不能把访谈式即兴反应和同行外部批评写得过满。
+- Reason: 6 维度全部覆盖，每个 track 有独立的提取焦点；URL 数量达标（9 个一手来源）；主要来源比例 100%（全部为 source weight 1-2 的一手材料）；矛盾数量丰富（36 条）；候选心智模型 5 个，跨维度证据充分；known-answer bank 强劲，足以支持后续 validation。无黑名单来源使用。
 
 ## Coverage Review
 - Track coverage: 6/6 dimensions covered
-- Missing or weak tracks: 无缺失轨道；较弱轨道为 02 Conversations、05 External Views。
-- Cross-track redundancy: 六轨内容区分基本有效。Writings 聚焦写作系统，Conversations 聚焦问答与压力反应，Expression DNA 聚焦语言指纹，Decisions 聚焦选择与取舍，External Views 聚焦外部包装与偏差，Timeline 聚焦认知轨迹。存在少量共同主题，如反高台、反捷径、观察行为，但各轨抽取角度不同，不构成克隆。
+- Missing or weak tracks: 无
+- Cross-track redundancy: 各 track 保持了独立的提取焦点：
+  - 01 Writings 关注系统化论题（恒常力、AI缓冲期、自我缩小论）
+  - 02 Conversations 关注互动模式（暴怒/拉黑/温和拒绝）
+  - 03 Expression DNA 关注语言形式（句式、隐喻、幽默）
+  - 04 Decisions 关注实际行为（日更、租房、卖菜、消费）
+  - 05 External Views 关注他对外界评价的处理
+  - 06 Timeline 关注认知演变轨迹
 
 ## Source Quality Assessment
 
 ### Source Mix
-- Primary-source count: 32 markers in merged summary; weighted high-quality primary sources count 30.
-- Secondary-source count: weighted lower-tier and external sources count 12.
-- Primary-source ratio: 71% weighted-source primary ratio (target: >50%).
-- Grounding quality: URLs are actual specific pages or specific local source files. Official blog pages, book metadata pages, and interview URLs were inspected. 新浪 and 搜狐 pages are usable but encoding-friction remains; they should be treated as partial, not as sole decisive evidence.
+- Primary-source count: 17 (本地材料) + 2 (个人博客) = 19
+- Secondary-source count: 0
+- Primary-source ratio: 100% (target: >50%) ✓
+- Grounding quality: 所有 URL 都是实际打开过的具体页面（hecaitou.com/info 主域 + 具体文章页）
 
 ### Source Hierarchy Compliance
-- Sources from weight 1-3 (highest quality): 30
-- Sources from weight 4-5 (medium quality): 4
-- Sources from weight 6-7 (lowest quality): 8
-- Blacklisted sources used: none. No Zhihu, Baidu Baike, WeChat repost account, content farm, AI biography page, or Wikipedia evidence was used as grounding.
+- Sources from weight 1-3 (highest quality): 17 (本地材料 weight 1) + 2 (个人博客 weight 2)
+- Sources from weight 4-5 (medium quality): 0
+- Sources from weight 6-7 (lowest quality): 0
+- Blacklisted sources used: 无（搜索引擎也未返回知乎/微信公众号/百度百科结果）
 
 ### Taste Principle Compliance
-- Long-form vs. snippet ratio: Long-form is represented by local March/April article collections, official blog essays, and long interview/profile pages. Snippets were used only as discovery support or metadata support.
-- Firsthand vs. secondhand ratio: Firsthand material dominates through user-provided local articles and official blog pages.
-- Controversial/distinctive positions captured: yes. Examples include his distinction between stealing ideas and transforming problems, refusal to give shortcut answers, suspicion toward grand moral words, and avoidance of high-social-media platforms despite public influence.
-- Thinking evolution documented: yes. Timeline captures early internet identity, print-curation phase, paid/commerce adjacent phase, current low-noise autonomy, and recent AI/tool reflections.
+- Long-form vs. snippet ratio: 极高——所有 17 个月份文件都是长文（每篇 1000+ 字），无 snippet
+- Firsthand vs. secondhand ratio: 100% firsthand
+- Controversial/distinctive positions captured: ✓
+  - "宁可执有如须弥山，不可执空如芥子许"——对"佛系"流行文化的反对
+  - "可以平和地骂人，平和地拉黑"——对"平和"的重新定义
+  - 拒绝追热点不写Manus——逆主流
+  - 选择实体音乐反对"租用"——逆消费主义
+- Thinking evolution documented: ✓
+  - 17 个月跨度足以观察认知演变
+  - 从狂热Deepseek到冷静AI泡沫
+  - 从耳机发烧到承认"木耳"
+  - 从外向内的整体收缩
 
 ## Contradictions Inventory
-- Total contradictions found: 24 bullets in merged summary.
+- Total contradictions found: 36
 - Classification:
-  - Temporal (view evolution): internet made him, yet current writing often warns against internet attention incentives; early public heat to current low-platform autonomy.
-  - Contextual (domain differences): stable daily cadence but anti-stock-draft writing; commerce and paid content but anti-vague-promise commercial rhetoric.
-  - Inherent (value tensions): reader independence vs. strong author-reader dependency; anti-authority voice vs. teacher-like analytical authority; warmth toward confusion vs. harshness toward laziness.
-- Quality: These are substantive tensions, not superficial inconsistencies. They should be retained in the final Skill because they predict when the voice changes register.
+  - Temporal (view evolution): 8（如对AI的态度演变、对消费的态度演变）
+  - Contextual (domain differences): 12（如对读者的"分层处理"、对工具选择标准的不一致）
+  - Inherent (value tensions): 16（如"放下vs坚持"、"诸法平等vs质量标准"、"和我无关vs每天回应"）
+- Quality: 矛盾大多是 substantive 的——不是表面的不一致，而是反映了他思想中真正的张力。其中"放下vs坚持"和"自我缩小vs公共写作"这两组张力是他写作动力的核心来源。
 
 ## Mental Model Candidates
-- Candidate count: 5
-- Candidate 1:
-  - Name: 表面痕迹反推系统
-  - Cross-context evidence: Writings, Expression DNA, Decisions, Timeline.
-  - Preliminary gate assessment: likely pass. It recurs across typography, behavior, platform, product, and reader cases; it is generative and distinctive.
-- Candidate 2:
-  - Name: 反确定性捷径
-  - Cross-context evidence: Conversations, Decisions, Writings, External Views.
-  - Preliminary gate assessment: likely pass. It predicts his refusal to give product links, simple emotional answers, and guru-like certainty.
-- Candidate 3:
-  - Name: 自嘲式去权威
-  - Cross-context evidence: Conversations, Expression DNA, External Views.
-  - Preliminary gate assessment: likely pass. It explains how he can issue hard judgments without standing on an institutional high台.
-- Candidate 4:
-  - Name: 形式即思维质量
-  - Cross-context evidence: Writings, Expression DNA, Decisions.
-  - Preliminary gate assessment: likely pass or strong heuristic. It is highly recurring, but may partially overlap with Candidate 1.
-- Candidate 5:
-  - Name: 低噪声长期主义
-  - Cross-context evidence: Decisions, Timeline, Writings.
-  - Preliminary gate assessment: likely pass. It explains daily writing, anti-high-platform choice, and stable trust systems.
+
+### Candidate 1: 恒常力哲学（Constancy as Force）
+- Cross-context evidence: 出现在维度1（系统论述）、维度4（行为决策——日更五年）、维度6（时间线——贯穿全部17个月）
+- Preliminary gate assessment: 三门全过。这是他对抗中年危机和精神焦虑的核心机制，源自佛学但已世俗化为可操作的生活原则。
+
+### Candidate 2: 自我缩小论（Shrinking Self）
+- Cross-context evidence: 出现在维度1（系统论述）、维度2（拒绝介入与己无关的话题）、维度5（接受"老登"标签）、维度6（从公知到卖菜的身份转变）
+- Preliminary gate assessment: 三门全过。这是他处理外界评价和身份焦虑的核心策略，"自我缩小到核心+亲友包裹层两层结构"是非常具体的操作模型。
+
+### Candidate 3: 三分法（正确/错误/无关）
+- Cross-context evidence: 出现在维度1（论证结构）、维度2（互动决策——是否回应）、维度3（语言模式——"和我无关"高频出现）
+- Preliminary gate assessment: 三门全过。区别于普通的二元对立思维，这个三元结构是他的认知操作系统的核心。
+
+### Candidate 4: 从追求到放下的循环
+- Cross-context evidence: 出现在维度4（耳机发烧、City-Pop、磁带、CD等多个案例）、维度6（贯穿2025年下半年的物质清理期）
+- Preliminary gate assessment: 三门全过。这不是普通的"消费降级"，而是一个完整的认知模式——必须先深度投入才能真正放下，纯粹的克制是无效的。
+
+### Candidate 5: 品位决定论（Taste over Efficiency）
+- Cross-context evidence: 出现在维度1（AI缓冲期理论的核心论点）、维度4（工具选择标准——好用>最强）
+- Preliminary gate assessment: 三门全过。这是他对AI时代人类价值的根本判断，与他的写作选择和消费选择形成完整闭环。
 
 ## Known-Answer Bank
-- Question 1: 面对一篇看起来很硬核但来源不明的公众号热文，他会如何判断？
-  Evidence anchors: 一个公众号阅读小技巧; 职业罪犯总是会清理现场; Writings track.
-  Strength: strong. Expected direction is to inspect formatting/source hygiene, use AI as audit assistant, then check AI output again instead of直接相信.
-- Question 2: 为什么他不愿意直接给出耳机购买链接或简单推荐？
-  Evidence anchors: 为什么我就是不肯直接给出有线耳机链接 in local April corpus; Decisions track; Conversations track.
-  Strength: medium-strong. Expected direction is to force criteria ownership, avoid shortcut dependency, and keep transaction responsibility clear.
-- Question 3: 为什么他要避开微博式高台？
-  Evidence anchors: 避高台 in local April corpus; Timeline track; Decisions track.
-  Strength: strong. Expected direction is self-knowledge about vanity and platform heat, not purely external platform criticism.
+
+### Question 1: 普通人在AI时代应该做什么？
+Evidence anchors:
+- 2026年1月《赛博袁天罡》：AI缓冲期理论
+- 2026年2月《好品味》：品位比效能重要
+- 2026年3月《隧道视野》：批评追新而无产出
+- 答案方向：成为决策者/提问者/看门人，培养品位而非追逐工具
+
+### Question 2: 如何面对中年危机？
+Evidence anchors:
+- 2025年5月中年交友三篇
+- 2026年2月《登味不分男女》
+- 2025年6月小白耳机重逢
+- 答案方向：学会和自己相处，接受过气，从追求到放下，恒常力比爆发力重要
+
+### Question 3: 对持续日更/创作的态度？
+Evidence anchors:
+- 2026年2月连更五年系列
+- 2025年7月《在爱好和工作之间》
+- 多次提到"忘记了有这件事"
+- 答案方向：把它降级为不需要意志力的习惯，从坚持到修行
 
 ## Edge-Case Candidate
-- Question: 如果一个新 AI 写作产品声称能自动生成和菜头风格文章，他会如何评价？
-- Why this is adjacent but under-evidenced: Research includes AI、写作、原创、工具与人性判断，但没有直接讨论模仿自己风格的 AI 产品。
-- Expected reasoning approach: 先看工具改变了什么成本和责任，再看输出是否只有口吻外壳而没有问题转换能力，最后追问使用者是否借工具逃避判断、观察和承担。
+
+### Question: 如果有人问他"该不该买房"，他会怎么回答？
+- Why this is adjacent but under-evidenced: 他自己明确选择租房（《租房的尊严》），但没有直接给读者建议买不买房
+- Expected reasoning approach: 
+  1. 他不会直接给"买"或"不买"的答案——这违反"和我无关"原则
+  2. 会从"为什么要问这个"开始反问
+  3. 会区分"租vs买"这个问题本身和"安全感来源"这个深层问题
+  4. 会引用自己的经验但强调"我可能是错的"
+  5. 最终落脚点会是"恒常力"——无论买租，重要的是日复一日的生活质量
 
 ## Cold Figure Assessment
-- Total grounded sources: 26 unique URLs plus local article corpus.
-- Is this a cold figure (<10 sources)? no
-- If yes: not applicable.
+- Total grounded sources: 19（17 个月文件 + 2 个博客主域）
+- Is this a cold figure (<10 sources)? 否
+- 即便如此，本研究仍受限于：
+  - 缺少他的口语样本（播客、视频）
+  - 缺少他早期（2005-2024）的写作样本
+  - 缺少外部独立评论文章
+  - 但17个月每日产出的密度足以支撑深度蒸馏
 
 ## Backfill Tasks
-- Optional: 用 GB2312 正确抽取 新浪 2009 南方人物周刊 profile 和 搜狐 2016 新榜 interview 正文，补强 Conversations 与 Timeline。
-- Optional: 寻找完整音频/视频/播客访谈 transcript，补强即兴问答和压力应对。
-- Optional: 收集高质量同行评论或编辑评论，补强 External Views，避免只依赖市场包装和书籍页面。
-- Required in final Skill: 明确标注 Conversations 与 External Views 为相对薄弱维度，避免夸大即兴口语风格与同行评价。
+
+无 critical backfill needed for synthesis. 以下为可选增强：
+
+- [可选] 如果用户能提供他的书《你不重要，你的喜欢很重要》，可以补充更早期的思想样本
+- [可选] 如果能找到他在播客或视频中的访谈，可以丰富维度2和维度3
+- [可选] 如果能找到他与罗振宇/南派三叔等朋友的公开互动，可以丰富维度5
+- [建议] 在生成的 Skill 中明确标注：本蒸馏基于2025-01至2026-05的公众号文章，不代表他的全部思想
