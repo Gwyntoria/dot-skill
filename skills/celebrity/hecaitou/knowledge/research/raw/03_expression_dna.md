@@ -1,152 +1,78 @@
-# 语言指纹 (Expression DNA)
+# 03 Expression DNA
 
 ## Collection Metadata
-- Dimension: 3 - Expression DNA
-- Collection strategy: local-first
-- Sources searched: 17 (monthly article compilations)
-- Sources used: 17
-- Primary vs secondary ratio: 17:0
+- Dimension: 03 Expression DNA
+- Collection strategy: local-first plus public blog cross-check
+- Sources searched: 12 local monthly sample files and selected public article pages
+- Sources used: local corpus plus 5 concrete public URLs
+- Primary vs secondary ratio: 6:0
 
 ## Source Metadata
-
-- URL: https://www.hecaitou.com/2025/01/happy-new-year-2025.html
-- Source type: essay / blog post
-- Grounding level: primary
-- Access note: local files, full text
-- Source weight: 1 (user-provided local materials)
-- Date: 2025-01-01
-
-- URL: https://www.hecaitou.com/2025/03/rainbow-professor.html
-- Source type: essay / blog post
-- Grounding level: primary
-- Access note: local files, full text
-- Source weight: 1 (user-provided local materials)
-- Date: 2025-03
-
-- URL: https://www.hecaitou.info
-- Source type: personal blog (mirror/archive)
-- Grounding level: primary
-- Access note: public
-- Source weight: 2 (first-person authored works)
-- Date: accessed 2026-05-23
+- URL: https://www.hecaitou.com/2026/05/Three-Workplace-Words-to-Run-From.html
+- Source type: essay
+- Grounding level: primary source, first-person authored work
+- Access note: local sample source
+- Source weight: 1
+- Date: 2026-05-01
+- URL: https://www.hecaitou.com/2026/05/Above-All-Your-Own-Growth.html
+- Source type: essay
+- Grounding level: primary source, first-person authored work
+- Access note: local sample and public page opened
+- Source weight: 1
+- Date: 2026-05-02
+- URL: https://www.hecaitou.com/2026/05/Real-Men-Do-not-Write-Reviews.html
+- Source type: essay
+- Grounding level: primary source, first-person authored work
+- Access note: local sample source
+- Source weight: 1
+- Date: 2026-05-03
+- URL: https://www.hecaitou.com/2026/05/hold-back-leave-a-breath.html
+- Source type: essay
+- Grounding level: primary source, first-person authored work
+- Access note: local sample source
+- Source weight: 1
+- Date: 2026-05
+- URL: https://www.hecaitou.com/2026/04/Looking-Without-Reading.html
+- Source type: essay
+- Grounding level: primary source, first-person authored work
+- Access note: local sample source
+- Source weight: 1
+- Date: 2026-04-02
+- URL: https://www.hecaitou.com/2025/12/There-is-no-shame-in-being-left-undecided.html
+- Source type: essay
+- Grounding level: primary source, first-person authored work
+- Access note: local sample source
+- Source weight: 1
+- Date: 2025-12-27
 
 ## Evidence
-
-### 句式节奏
-
-**短-长-短三明治结构**：短句开头建立节奏，长句展开论述，短句收尾形成判断。
-
-**独立成段的短句**：大量使用一句话独立成段，制造停顿感和强调效果。
-
-**破折号的高频使用**：用破折号做补充说明、转折、或引出意外的结论。"---"也常用作语气停顿标记。
-
-**段落结尾**：常用反问或一句话总结收束。
-
-### 隐喻库存
-
-**动物隐喻**：磨驴追胡萝卜、黄狗追天鹅、刺猬取暖、自称"柴狗"而非"肉猪"
-
-**身体隐喻**：心如棱镜、身体是筛子、时间的线香烧灼手指、自我"溢出皮肤流淌到街上"
-
-**空间隐喻**：平行宇宙、集市散场、大海泅渡、隧道视野
-
-**商业/经济隐喻**：许愿服务中心的客服窗口、地球许愿服务中心的绩效考评、注意力的"批发vs零售"
-
-**佛学概念的世俗化**：功德池（反复用作玩笑和半认真的概念）、"心"作为核心概念词（心相、心田、心念）
-
-### 幽默风格
-
-**自嘲式幽默**：
-- "我就是专职卖菜，兼职写作"
-- "我作为北京西北角马连洼地区著名挪车专家"
-- "我认识一头牲口"（指自己）
-- 称自己是"一个在当地较为英俊的胖子"
-
-**降格式幽默**：用粗俗语言消解严肃话题
-- "呲你爹呢呲呲呲"
-- 偶尔的粗口增加亲近感（"崽种！"、"傻屌"）
-
-**反差式幽默**：
-- 佛学概念+情人节送礼困境
-- 骑马故事回答擦边直播问题
-- 男友摄影教程最后变成独自旅行
-
-**荒诞类比**：
-- 许愿服务中心的客服窗口
-- 把AI幻觉比作"银行拒绝带毒密码"
-- "前男友摄影术"
-
-### 确定性语言
-
-**高确定性表达**：
-- "我认为"、"在我看来"频繁出现，后面跟的往往是非常确定的判断
-- 很少用"也许"、"可能"修饰核心观点
-- 喜欢用句号作为强调："人的耳朵会适应，句号。"
-
-**不确定性的诚实标注**：
-- 对不确定的事会明确说"我不知道"、"我可能是错的"
-- 但紧接着给出非常确定的判断——谦辞是礼貌而非真正的犹豫
-
-**标志性签名**：
-- "我所说的每一句话，都是错的"——自我消解式的权威建构
-
-### 不同意的表达方式
-
-**间接否定**：不直接说"你错了"，而是用"我不需要..."、"和我无关"
-
-**极端案例反证**：用极端案例反证对方逻辑的荒谬
-
-**偶尔直接开骂**：在感到被严重误读时会直接使用粗口
-
-**教育式否定**：对年轻读者用"你不需要参与所有话题"这类指导性语言
-
-### 反复出现的短语/表达
-
-- "片儿汤话"
-- "心无旁骛"
-- "为什么不能是我"
-- "有话直说"
-- "勿失己道，莫扰他心"
-- "又不是不能用"
-- "我认为这就是..."
-- "从我的角度来看/观察"
-- "功德池"
-
-### 语气转换
-
-**严肃到自嘲**：在最严肃的论述后突然插入自嘲，消解说教感
-
-**温和到暴烈**：平时温和的语气在被误读时会突然变得极具攻击性
-
-**哲学到日常**：佛学或哲学概念总是被拉回到极具体的日常场景
+- Sentence rhythm alternates between long explanatory runs and short terminal judgments. Long runs carry causal chains; short lines act as a slap, a pause, or a comic hard stop.
+- The prose frequently uses direct address to stage a reader inside the essay. The reader is not a market persona but a familiar person who may be teased, corrected, refused, or protected.
+- The metaphor inventory is domestic and technical at once: kitchens, work units, logistics, gadgets, product interfaces, old internet scenes, Buddhist practice, movie scenes, and market transactions.
+- He often translates respectable words into material consequences. Workplace virtue terms become contracts, refunds, discounts, workload, performance, or unpriced sacrifice.
+- Certainty is domain-specific. He is forceful about incentives, contracts, platform mechanisms, and personal boundaries, while more tentative about trends, motives, and spiritual conclusions.
+- His humor is not decorative. It often breaks solemnity exactly when an argument risks becoming too smooth or superior.
+- Register mixing is central: abstract terms like production materials or paradigm shift stand next to slang, marketplace language, and deliberately low-status jokes.
+- A recurrent move is self-implication: after attacking a public posture, he imagines himself making the same posture and tells readers to distrust him too.
 
 ## Patterns and Repeated Themes
-
-1. **可辨识度极高**：即使去掉署名，100字内可以辨认出是他——通过短句节奏、自嘲式权威、佛学术语的世俗化使用
-2. **口语化书面语**：写作风格介于口语和书面语之间，有明显的"说话感"
-3. **反模板**：从不使用公众号常见的"金句体"、"鸡汤体"、"干货体"
-4. **情绪的精确控制**：知道什么时候该温和，什么时候该暴烈，什么时候该自嘲
-5. **佛学语言的自然嵌入**：不是引经据典式的，而是已经内化为日常表达的一部分
+- Blind-test markers include long causal chaining, sudden colloquial compression, comic institutional names, reader scolding, and a final move from social mechanism back to personal cultivation.
+- The prose tends to avoid neutral policy-report tone. Even when discussing broad issues, it returns to a single body, room, device, reader, bill, meal, or message.
+- Disagreement style is direct but usually mediated through reframing. He attacks the hidden premise before attacking the person.
+- He makes room for unresolvedness. A strong opinion may end with a limit, a joke, or a refusal to solve the reader's whole life.
 
 ## Contradictions
-
-- 签名是"我所说的每一句话，都是错的"，但文章中的判断极为确定
-- 自称"片儿汤话"无用，但自己的文章本质上也是一种"片儿汤话"的高级形态
-- 反对说教，但自己的文章充满指导性——区别在于他总是从自身经验出发
-- 用粗口表达亲近，但同时维持着一种知识分子的精英感
-- 声称"诸法平等"，但对语言质量有明确的高下判断
-- 自嘲式权威——通过贬低自己来建立权威，这本身是一种修辞策略
+- The style praises clarity, yet often reaches clarity by detouring through stories, jokes, and side analogies.
+- It mocks performance and self-display, yet the essays are unmistakably built around a highly recognizable persona.
+- It insists on concrete objects and behavior, yet regularly converts them into metaphysical or mind-training language.
+- It can feel conversational and intimate, while also refusing emotional labor and drawing hard boundaries with readers.
 
 ## Inferences (clearly marked)
-
-- [推断] 他的写作风格是20年博客写作自然演化的结果，不是刻意设计的——从早期互联网BBS文化中继承了口语化和攻击性，从佛学修行中获得了节制和自省
-- [推断] "我所说的每一句话，都是错的"不是谦虚，而是一种免责声明——允许自己大胆判断而不承担"权威"的责任
-- [推断] 他的幽默风格（自嘲+荒诞+降格）是处理"知识分子写公众号"这个身份张力的方式——既保持深度又不显得高高在上
-- [推断] 短句节奏可能受到早期互联网写作（BBS、博客）的影响——那个时代的读者注意力已经比纸媒时代短
+- Inference: The most imitable surface markers are risky because they can become caricature; the safer model is a sequence of observation, translation, reframing, and boundary-setting.
+- Inference: His comic violence in language functions as pressure release, not as the whole worldview.
+- Inference: He uses low-status vocabulary to prevent the essay from floating into moral superiority.
+- Inference: His refusal to optimize every sentence is itself part of the identity; perfectly balanced prose would be less faithful.
 
 ## Gaps and Missing Information
-
-- 缺少他的口语样本（播客、视频、演讲），无法对比书面语和口语的差异
-- 缺少他早期（2005-2015）的写作样本，无法追踪风格演变
-- 缺少他用英文写作的样本（博客上有少量英文内容），无法了解双语能力对风格的影响
-- 缺少他与其他作者的风格对比分析
+- The expression analysis is strongest for 2025-06 to 2026-05 and should not be assumed to represent every earlier period without archive backfill.
+- We did not store verbatim passages or sentence-level quantitative statistics beyond qualitative rhythm observations.

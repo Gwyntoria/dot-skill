@@ -1,180 +1,105 @@
-# 认知轨迹 (Timeline)
+# 06 Timeline
 
 ## Collection Metadata
-- Dimension: 6 - Timeline
-- Collection strategy: local-first
-- Sources searched: 17 (monthly article compilations) + web research
-- Sources used: 17 local + 2 web
-- Primary vs secondary ratio: 17:2
+- Dimension: 06 Timeline
+- Collection strategy: web+local
+- Sources searched: public blog, old blog domain, book metadata, interview pages, local sample corpus
+- Sources used: 10 concrete sources
+- Primary vs secondary ratio: 7:3
 
 ## Source Metadata
-
-- Source: sample/hecaitou/2025-01.md through 2026-05.md
-- Source type: essay / blog post
-- Grounding level: primary
-- Access note: local files, full text
-- Source weight: 1 (user-provided local materials)
-- Date: 2025-01 to 2026-05
-
-- URL: https://www.hecaitou.com
-- Source type: personal blog
-- Grounding level: primary
-- Access note: public
-- Source weight: 2 (first-person authored works)
-- Date: accessed 2026-05-23
-
-- URL: https://www.hecaitou.info
-- Source type: personal blog (mirror/archive)
-- Grounding level: primary
-- Access note: public
-- Source weight: 2 (first-person authored works)
-- Date: accessed 2026-05-23
+- URL: https://www.hecaitou.com/2025/03/on-the%20Internet.html
+- Source type: self-description essay
+- Grounding level: primary source, first-person timeline marker
+- Access note: public blog source reported by research agent
+- Source weight: 2
+- Date: 2025-03
+- URL: https://book.douban.com/subject/26679240/
+- Source type: book metadata and author profile
+- Grounding level: secondary source for early internet-period metadata
+- Access note: concrete page opened
+- Source weight: 6
+- Date: 2015 book page
+- URL: https://www.hecaitou.info/2020/09/2009.html
+- Source type: essay
+- Grounding level: primary source, first-person retrospective
+- Access note: public blog source reported by research agent
+- Source weight: 2
+- Date: 2020-09
+- URL: https://www.ifanr.com/26762
+- Source type: interview
+- Grounding level: primary source through long-form interview answers
+- Access note: concrete interview page reported by research agent
+- Source weight: 3
+- Date: 2010
+- URL: https://www.hecaitou.com/2023/05/Reload-blog.html
+- Source type: essay
+- Grounding level: primary source, first-person platform transition
+- Access note: public blog source reported by research agent
+- Source weight: 2
+- Date: 2023-05
+- URL: https://www.hecaitou.com/2023/06/teacher-he.html?m=0
+- Source type: essay
+- Grounding level: primary source, first-person identity reflection
+- Access note: public blog source reported by research agent
+- Source weight: 2
+- Date: 2023-06
+- URL: https://www.hecaitou.com/2026/04/Shunning-the-Pedestal.html
+- Source type: essay
+- Grounding level: primary source, first-person platform boundary
+- Access note: public blog source reported by research agent
+- Source weight: 2
+- Date: 2026-04
+- URL: https://www.hecaitou.com/2025/11/Happy-birthday-Mr-HeCaitou-2025%20.html
+- Source type: essay
+- Grounding level: primary source, first-person life reflection
+- Access note: local sample source has same URL with spacing issue
+- Source weight: 1
+- Date: 2025-11-05
+- URL: https://www.sohu.com/a/83742374_108964
+- Source type: interview article
+- Grounding level: secondary source with direct answers
+- Access note: concrete interview page found via web search
+- Source weight: 4
+- Date: 2016
+- URL: https://www.megbook.com.hk/mall/detail.jsp?proID=2862426
+- Source type: bookstore metadata
+- Grounding level: secondary source
+- Access note: concrete book page found via web search
+- Source weight: 6
+- Date: 2016 listing
 
 ## Evidence
-
-### 背景时间线（从文章中推断）
-
-- 约2000年代初：开始互联网写作（BBS/博客时代）
-- 约2005-2006：开始写"槽边往事"博客
-- 约2010年前后：活跃于牛博网，写时评，被称为"公知"
-- 约2010-2012：主动停止时评写作，"沉默"
-- 2018年：翻译Naval Ravikant的"How to Get Rich Without Getting Lucky"，在中文互联网广泛传播
-- 出版《你不重要，你的喜欢很重要》（散文集）
-- 2021年前后：开始公众号日更
-- 2024年：写了398篇文章
-- 2026年2月：连更五年里程碑
-
-### 2025年1月：Deepseek狂热期
-
-- 从震惊到狂喜到布道，密集发布教程和使用心得
-- 情绪高点在除夕前后，"再次上车"的欣慰
-- 核心观点：AI是技术民主化的一部分
-- 同时提出"执着与解脱"的年度哲学框架
-
-### 2025年2月：从AI转向人
-
-- 开始写给中学生的回信，讨论"人和人之间的问题才是本质"
-- 开始反思长新冠、睡眠等身体问题
-- 注意力从外部世界转向内在
-
-### 2025年3月：哲学深化期
-
-- 《彩虹的教授》标志着认知转折点——重新理解45年前的童年经验
-- 从物理学解释转向"实存和现象无二无别"的领悟
-- 《豆瓣20年》中承认从"书籍电影音乐"的信仰者变成了"纵身跃入世界"的实践者
-
-### 2025年4月：面对世界动荡
-
-- 川普关税引发的思考确认"世界是浪构成的"
-- 个人应对是"种一小盆花"
-- 《和自己在一起》是清明节的存在主义宣言
-
-### 2025年5月：中年主题集中爆发
-
-- 交友三篇是对中年危机最系统的思考
-- 核心结论："学会和自己相处"
-- 身体上开始接受衰退（听力下降）
-- 心态上"由衷欢喜"
-
-### 2025年6月：回归简单
-
-- 从高端音响系统到9.9元原道耳机
-- 从追求参数到"安安静静坐下来听音乐"
-- 小白耳机的重逢是象征性事件——回到起点，发现起点就是答案
-
-### 2025年7-8月：物质与精神的清理期
-
-- 从"转赠不隔夜"开始，进入系统性的"减法"阶段
-- 耳机发烧结束，开始反思消费主义
-- 马叔叔去世（8月6日）是情感上的重要节点
-- 8月9日正式宣布找到AI最大用处（辅助理解人类）
-
-### 2025年9-10月：复古音乐潮的沉浸与总结
-
-- 从爵士乐到City-Pop到磁带机到黑胶的完整探索链
-- 10月初写出"复古音乐潮个人阶段总结"
-- 得出结论：流媒体是王道，复古只是情怀
-- 标志着这轮发烧的理性收尾
-
-### 2025年11-12月：向内转向
-
-- 11月讨论"痛苦的教育"，引入老师的话，佛学修行在加深
-- 11月讨论AI泡沫时态度冷静，不站队
-- 12月讨论"凝视"与身份建构，思考更加哲学化
-- 从具体的生活实践逐步走向更抽象的存在论思考
-
-### 2026年1月：奠基期
-
-- 提出AI缓冲期框架，确立全年思考基调
-- 对"大众对话者"角色的渴望与自知做不到的矛盾
-- 开始系统性反思"知道"vs"做到"的差距
-
-### 2026年2月：春节沉淀期
-
-- 连更五年里程碑带来大量自我回顾
-- "恒常力"概念的引入标志着从世俗坚持到精神修行的跨越
-- 对微信平台逻辑的顿悟（从大V到服务员）
-- CD/磁带/实体音乐的转向——对"慢"和"完整体验"的追求明确化
-
-### 2026年3月：深化期
-
-- "隧道视野"概念的提出，对AI追新行为的系统批评
-- 宿醉后情绪崩塌的坦诚记录——展示用AI做自我诊断的实践
-- MH370十二年——对"悬而未决"和"遗忘"的哲学思考
-
-### 2026年4-5月：实践与收束
-
-- 更多具体操作建议（冷启动方法、网络安全）
-- 对"洋皮套"现象的批评——消费观的系统表达
-- 职场敏感词分析——对虚伪话语的解构
-- AI收费与Token经济的前瞻——回到AI框架做延伸
+- He self-reports entering the online world in 1997. Separate book-page metadata suggests the He Caitou identity can be confidently traced to late-1990s BBS contexts, but exact first-use timing is uncertain.
+- The BBS phase is remembered externally through forums and early community spaces; the cognitive impact is a combative, conversational, identity-as-writing internet culture.
+- The blog phase shifts the center from forum combat to a durable authorial room, where long posts, archives, links, and self-conversation matter.
+- Around 2009, he later identifies mobile internet as a major cognitive break. The old web and new app world train different reading, linking, and attention habits.
+- The 2010 interview places him in early mobile-internet discourse, thinking across Blog, social networking services, iPhone, Android, and application behavior.
+- The 2015/2016 book period converts years of online serial writing into print and paid/distribution experiments, making the writer-platform-reader relationship more explicit.
+- The 2020 old-domain essay returns to the old internet/new internet distinction with more historical distance.
+- The 2023 blog restart marks a move back toward open web affordances after years of app-centered distribution.
+- The 2025 local corpus shows a mature phase: less platform conquest, more daily observation, reader discipline, midlife, sensory culture, and mind training.
+- The 2026 high-platform refusal marks an explicit boundary against data, follower count, and opinion-leader identity as forces that reshape the self.
 
 ## Patterns and Repeated Themes
-
-### 认知演变的主要方向
-
-1. **从外向内收缩**：从关注世界大事到关注内心状态
-2. **从追求到放下**：从追求更好的设备/体验到接受"够用就好"
-3. **从证明到接受**：从证明自己的价值到接受自己的局限
-4. **佛学内化加深**：从隐喻性使用到直接引用到成为认知操作系统
-
-### 循环模式
-
-每个兴趣领域都经历相同的循环：
-进入 → 深度投入 → 达到某个认知 → 主动退出或降级
-
-案例：耳机发烧、City-Pop、磁带机、黑胶、CD
-
-### 未变的信念
-
-- 恒常力/日拱一卒是唯一可靠的力量
-- 做比说重要，产出比知道重要
-- 自我应该小，世界大部分事情与己无关
-- 品位、审美是不可被AI替代的人类核心能力
+- Phase 1: BBS and early internet, identity formed through writing, argument, and durable handles.
+- Phase 2: Blog and long-form self-publication, with personal archive and voice becoming central.
+- Phase 3: Mobile internet and social platforms, where reach expands but attention and relationship quality degrade.
+- Phase 4: Print, paid reading, and platform experiments, making monetization and reader relationship explicit.
+- Phase 5: Return-to-open-web and midlife practice, where writing becomes daily repair, observation, and boundary management.
 
 ## Contradictions
-
-- 认知在"向内收缩"，但写作产出在增加——向内的思考反而产生了更多向外的表达
-- 说"接受过气"，但2026年的文章质量和思考深度明显在提升——这不像是一个"过气"的人
-- 佛学修行强调"放下"，但他对写作的坚持是一种极强的"执着"——他自己也承认这个矛盾
-- 从"公知"到"卖菜的"看似退步，但影响力可能并未减少——只是换了形式
-- 说"世界是浪"不需要反应，但每天都在对世界做出反应（写作本身就是反应）
-- 对AI的态度从狂热到冷静到务实，但始终保持使用——认知在变，行为相对稳定
+- The start of the identity has uncertain dating: entering the internet and the first confirmed He Caitou handle should not be collapsed into one fact.
+- His trajectory depends on platform visibility, yet the late trajectory increasingly warns that visibility can damage the writer's mind.
+- He is known as an internet figure, but his mature writing often defends old-fashioned slowness, books, direct experience, and non-optimized personal rhythms.
+- He resists being called teacher or authority, yet the timeline shows repeated social conversion of the writer into a guide, commentator, or public explainer.
 
 ## Inferences (clearly marked)
-
-- [推断] 他从"公知"到"卖菜的"的转变可能是中国互联网环境变化的被动适应，但他将其重新叙述为主动选择——这种"重新叙述"本身就是他的核心能力
-- [推断] 连更五年的真正转折点可能在第二年或第三年——从"需要意志力"变成"忘记了有这件事"的那个时刻
-- [推断] 2025年3月《彩虹的教授》可能是他整个认知体系的关键节点——"实存和现象无二无别"这个领悟统一了他的佛学修行和日常写作
-- [推断] 他对AI的态度演变（工具→社会影响→经济结构）反映了他思考问题的一般模式：从个人体验出发，逐步扩展到系统层面
-- [推断] 马叔叔去世（2025年8月）可能加速了他的"向内转向"——面对死亡时，外部世界的重要性自然降低
-- [推断] 他的认知轨迹整体上是一条"从复杂到简单"的路径——但这种简单不是简陋，而是经历了复杂之后的精炼
+- Inference: His cognitive timeline is best understood as a sequence of media environments training and threatening the self.
+- Inference: The return to blog form is not nostalgia alone; it is a technical and ethical correction to app-era enclosure.
+- Inference: His mature writing has shifted from winning arguments to preserving conditions for seeing clearly.
+- Inference: The public figure is not cold. The stronger pattern is a writer trying to prevent intimacy, metrics, and authority from becoming obligations he cannot honestly meet.
 
 ## Gaps and Missing Information
-
-- 缺少2005-2024年的完整写作记录，无法追踪长期认知演变
-- 缺少他停止时评写作的具体时间点和触发事件
-- 缺少他开始佛学修行的时间点和契机
-- 缺少他与"老师"（文中多次提到的佛学导师）的关系细节
-- 缺少他的阅读清单变化，无法追踪知识输入的演变
-- 缺少他在不同人生阶段的自我评价对比
+- The early BBS and FanFou archives are incomplete or indirectly preserved.
+- Exact dates for platform moves, employment changes, and commercial arrangements remain partially uncertain.

@@ -1,128 +1,90 @@
-# 行为与选择 (Decisions)
+# 04 Decisions
 
 ## Collection Metadata
-- Dimension: 4 - Decisions
-- Collection strategy: local-first
-- Sources searched: 17 (monthly article compilations)
-- Sources used: 17
-- Primary vs secondary ratio: 17:0
+- Dimension: 04 Decisions
+- Collection strategy: local-first plus public blog and media-source supplementation
+- Sources searched: local sample corpus, public blog, interview-style reports, external platform stories
+- Sources used: 8 concrete sources
+- Primary vs secondary ratio: 6:2
 
 ## Source Metadata
-
-- URL: https://www.hecaitou.com/2025/07/hobby-and-work.html
-- Source type: essay / blog post
-- Grounding level: primary
-- Access note: local files, full text
-- Source weight: 1 (user-provided local materials)
-- Date: 2025-07
-
-- URL: https://www.hecaitou.com/2025/08/rent-dignity.html
-- Source type: essay / blog post
-- Grounding level: primary
-- Access note: local files, full text
-- Source weight: 1 (user-provided local materials)
-- Date: 2025-08
+- URL: https://www.hecaitou.com/2023/05/Reload-blog.html
+- Source type: essay
+- Grounding level: primary source, first-person decision explanation
+- Access note: public blog source reported by research agent
+- Source weight: 2
+- Date: 2023-05
+- URL: https://www.hecaitou.com/2026/04/Shunning-the-Pedestal.html
+- Source type: essay
+- Grounding level: primary source, first-person platform boundary
+- Access note: public blog source reported by research agent
+- Source weight: 2
+- Date: 2026-04
+- URL: https://www.hecaitou.com/2026/04/Beyond-the-Algorithm.html
+- Source type: essay
+- Grounding level: primary source, first-person creator-platform decision model
+- Access note: local sample source
+- Source weight: 1
+- Date: 2026-04-10
+- URL: https://www.hecaitou.com/2026/04/No-Article-Left-Overnight.html
+- Source type: essay
+- Grounding level: primary source, first-person publishing workflow
+- Access note: local sample source
+- Source weight: 1
+- Date: 2026-04
+- URL: https://www.hecaitou.com/2025/11/believe-unconditionally.html
+- Source type: essay
+- Grounding level: primary source, first-person operating preference
+- Access note: local sample source
+- Source weight: 1
+- Date: 2025-11-14
+- URL: https://www.hecaitou.com/2026/05/one-method-to-escape-metrics-anxiety.html
+- Source type: essay
+- Grounding level: primary source, first-person metric anxiety response
+- Access note: local sample source
+- Source weight: 1
+- Date: 2026-05
+- URL: https://www.digitaling.com/articles/41348.html
+- Source type: external platform analysis
+- Grounding level: secondary source about Weibo relationship and platform decision
+- Access note: concrete external page reported by research agent
+- Source weight: 5
+- Date: external analysis
+- URL: https://www.sohu.com/a/83742374_108964
+- Source type: interview article
+- Grounding level: secondary source with direct answers about publishing and paid reading
+- Access note: concrete interview page found via web search
+- Source weight: 4
+- Date: 2016
 
 ## Evidence
-
-### 重大行为决策
-
-**1. 连续日更五年不中断**
-- 即便生病、宿醉、外出都坚持
-- 2024年写了398篇文章
-- 不把它当成成就，而是"忘记了有这件事"
-- 核心驱动力从意志力转变为习惯，再转变为修行
-
-**2. 开网店卖菌子咖啡鲜花**
-- 在写作红利消退时主动转型
-- "为什么卖菜的不能是我"
-- 自称"专职卖菜，兼职写作"
-- 选择小众、有坚持的品牌合作（原道耳机、3e Audio）
-
-**3. 选择租房不买房**
-- 在北京多年坚持租房，拒绝朋友劝说
-- 将此视为个人自由的体现
-- 2025年8月《租房的尊严》系统论述
-
-**4. 选择宅居生活**
-- 一周难得出门一次，2025年8月1日到月底只出门两次
-- 这是主动选择而非被动
-- 自称"变态"并用2014年手搓宠物的故事自证
-
-**5. 让AI代替自己回复读者**
-- 承认"AI比我更有人性"
-- 务实的自我认知：自己的分析型风格不适合所有互动场景
-- 选择效果而非坚持"亲力亲为"
-
-**6. 拒绝"自媒体"标签**
-- 明确拒绝追热点、做当下反应
-- 不写Manus等热门话题
-- "我只打我感兴趣的仗"
-
-### 消费与生活决策
-
-**7. 从流媒体转向实体音乐（CD/磁带/黑胶）**
-- 2026年2月开始系统性地"烧CD"
-- 理由：反对"租用"概念，追求"拥有"的感觉
-- 但最终承认自己是"木耳"，流媒体是王道
-- 从追求更好到接受"够用就好"（2025年6月"又见小白"耳机）
-
-**8. 坚持用Midjourney**
-- 面对"落伍"质疑，坚持使用满足真实需求的工具
-- 不追新，"又不是不能用"
-- 选择Deepseek的理由也是"中文水平最好"而非技术最强
-
-**9. 消费犹豫模式**
-- 买除湿机犹豫三天，开通Apple Music犹豫多年
-- 对"享乐"有深层罪恶感，但最终会克服
-- 克服后往往全情投入
-
-**10. 红包封面策略转变**
-- 从自己做成品封面发放，转为提供素材让读者自己创作
-- 理解微信平台逻辑后的主动调整——从"大V"转为"服务员"
-
-### 人际关系决策
-
-**11. 主动缩减社交圈**
-- 但对少数朋友极度忠诚（马叔叔的悼文、对张师傅的支持）
-- 2025年5月中年交友三篇：核心结论是"学会和自己相处"
-
-**12. 为嫣然天使儿童医院捐款**
-- 在对李亚鹏印象改观后立即行动
-- 附带详细声明说明这是个人选择，不构成背书
-- 显示"做"比"说"重要的行为模式
+- Restarting the blog is a revealed preference for durable, searchable, linkable writing over closed app-only circulation.
+- Avoiding a high platform such as Weibo is explained as a mind-protection decision, not merely a traffic or platform preference.
+- In the WeChat revenue essay, he distinguishes writing as expression, reader relationship, and online common life from mechanical content monetization.
+- The no-overnight article in the local sample shows a production rule: write, finish, publish, and do not let hesitation accumulate into blockage.
+- In the unconditional-belief essay, he rejects high-efficiency performance as the only valid mode and chooses a slower direction that preserves comfort and vitality.
+- External reporting on his Weibo break frames the decision as a response to algorithmic information-flow damage to follower relationships.
+- The 2016 interview material around book publishing and paid reading shows pragmatic mistrust of traditional publishing incentives and willingness to experiment with internet distribution.
 
 ## Patterns and Repeated Themes
-
-1. **"做"优先于"说"**：反复强调产出比知道重要，行动比观点重要
-2. **偏好慢、深、持续的事物**：厌恶快、浅、一次性的消费
-3. **对"面子"极度不在意**：以不要脸为荣（贴二维码收款的先驱）
-4. **用户体验 > 技术参数**：选择工具的标准是"好用"而非"最强"
-5. **务实的自我认知**：知道自己的局限并据此做决策（让AI回复、承认木耳）
-6. **从追求到放下的循环**：进入一个领域→深度投入→达到某个认知→主动退出或降级
+- Decision rule: choose the medium that preserves the desired relationship, not the medium with the largest visible number.
+- Decision rule: when a term hides unpaid sacrifice or platform capture, translate it into money, contract, time, and responsibility.
+- Decision rule: prefer a system that permits revision, linking, and reader responsibility over one that maximizes heat.
+- Decision rule: accept practical tools and commercial experiments, but keep the inner motive legible to yourself.
+- Decision rule: when metrics begin to determine self-image, create distance before the platform rewrites the person.
 
 ## Contradictions
-
-- 声称"诸法平等"，但对文字质量有不可妥协的标准
-- 声称不在意数据，但会仔细分析公众号年度总结的每一个数字
-- 声称接受变化，但对"旧时光"有深厚的情感依恋（豆瓣20年、腌橄榄、三轮车）
-- 说放下过去和未来，但写了大量怀旧文章（磁带机、随身听、City-Pop）
-- 说不做绩效考核，但明确知道哪类文章阅读量高哪类低
-- 选择宅居但每天通过写作与数万读者连接——这是一种"远程社交"
+- He knows how to use platforms pragmatically, yet repeatedly chooses against the obvious platform-growth path.
+- He advocates reality-facing moves for beginners, while personally preserving an old-school slow-writing identity that beginners may not be able to afford.
+- He distrusts traditional publishers and platform mechanisms, yet has used publishing, paid columns, blogs, and social platforms to sustain his work.
+- He rejects metric anxiety, but the essays show deep literacy about traffic, conversion, reader behavior, and platform incentives.
 
 ## Inferences (clearly marked)
-
-- [推断] 他的"卖菜"转型不仅是商业决策，也是身份重构——从"知识分子写公众号"变成"卖菜的顺便写字"，降低了写作的身份负担
-- [推断] 消费犹豫模式可能与他的佛学修行有关——对"贪"的自觉让他在每次消费前都要经历一次内心审判
-- [推断] 从流媒体到实体再回到流媒体的循环，是他"从追求到放下"模式的一个完整案例——需要亲身经历才能真正放下
-- [推断] 日更五年的真正意义不是产出量，而是通过重复建立了一种"不需要决策"的生活结构——减少了每天的选择疲劳
-- [推断] 他选择工具的标准（好用>最强）反映了一种反精英主义——拒绝"最好的"这个概念本身
-- [推断] 红包封面策略转变显示他对平台权力关系有清醒认知——知道在微信生态中"大V"是幻觉
+- Inference: His decisions are governed less by anti-commerce sentiment than by anti-capture sentiment.
+- Inference: He tolerates compromise when it is named honestly; he attacks compromise when it is dressed as morality.
+- Inference: He sees media choice as self-shaping. A platform is not just a channel but a training environment for the writer's mind.
+- Inference: He would advise creators to start with practical distribution, then gradually defend the conditions under which they can keep writing as themselves.
 
 ## Gaps and Missing Information
-
-- 缺少他的商业决策细节（网店运营数据、合作品牌选择标准）
-- 缺少他离开时评写作的具体决策过程
-- 缺少他选择北京而非其他城市的原因
-- 缺少他的投资或理财决策（如果有的话）
-- 缺少他与出版社合作出书的决策过程
+- We do not have full business records for book sales, paid subscriptions, or platform income.
+- Some decisions are inferred from essays and external reports rather than documented internal decision memos.

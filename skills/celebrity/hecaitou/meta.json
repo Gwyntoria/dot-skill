@@ -5,112 +5,56 @@
   "research_profile": "budget-unfriendly",
   "classification": {
     "language": "zh-CN",
-    "domain": [
-      "writing",
-      "long-form-blogging",
-      "AI-perspective",
-      "Buddhist-practice",
-      "Chinese-internet-culture"
-    ],
-    "era": "2005-present",
-    "region": "中国",
     "gallery_category": "Celebrity",
     "tags": [
-      "写作方法论",
-      "长期主义",
-      "AI使用",
-      "中年身份",
-      "佛学世俗化",
-      "中文互联网",
+      "写作",
       "公众号",
-      "恒常力",
-      "自我缩小",
-      "品位决定论"
+      "博客",
+      "中文互联网",
+      "随笔",
+      "平台机制",
+      "表达 DNA"
     ]
   },
+  "summary": "和菜头式写作能力：从日常小事进入系统结构，把体面词语还原为利益与责任，识别平台对人的反向训练，并用带有边界感的长文完成观察、反讽和心性校准。",
   "profile": {
-    "real_name_or_alias": "和菜头",
-    "main_platform": "微信公众号「槽边往事」",
-    "main_blog": "https://www.hecaitou.com",
-    "blog_archive": "https://www.hecaitou.info",
-    "career_summary": "中文互联网长期写作者，公众号「槽边往事」运营者，已连续日更五年以上。曾在博客时代活跃于牛博网等平台，写过时评（被称为公知），后主动退出时评写作，转向更个人化的写作方向。自称专职卖菜，兼职写作。",
-    "books": [
-      "你不重要，你的喜欢很重要（散文集）"
-    ],
-    "key_traits": [
-      "佛学修行者",
-      "实践派文人",
-      "互联网原住民",
-      "日更五年",
-      "反流量主义"
-    ]
+    "identity": "中文互联网长期写作者、公众号/博客《槽边往事》作者",
+    "occupation": "作者、互联网观察者、随笔写作者",
+    "known_for": "从 BBS、博客到公众号的长期在线写作；对读者关系、平台机制、生活小事和中年心性的连续观察"
   },
   "tags": [
-    "写作方法论",
-    "长期主义",
-    "AI使用",
-    "中年身份",
-    "佛学世俗化",
-    "中文互联网",
+    "写作",
     "公众号",
-    "恒常力",
-    "自我缩小",
-    "品位决定论"
+    "博客",
+    "中文互联网",
+    "随笔",
+    "平台机制",
+    "表达 DNA"
   ],
   "knowledge_sources": [
     {
-      "type": "local-articles",
-      "path": "sample/hecaitou/",
-      "files": 17,
-      "date_range": "2025-01 to 2026-05",
-      "weight": 1,
-      "description": "17个月公众号文章合集，约22000行"
+      "type": "local_sample",
+      "path": "sample/*.md",
+      "description": "2025-06 至 2026-05 作者博客 Atom feed 月度文章汇总"
     },
     {
-      "type": "personal-blog",
-      "url": "https://www.hecaitou.com",
-      "weight": 2,
-      "description": "个人博客主站"
+      "type": "research_summary",
+      "path": "skills/celebrity/hecaitou/knowledge/research/merged/summary.md"
     },
     {
-      "type": "personal-blog",
-      "url": "https://www.hecaitou.info",
-      "weight": 2,
-      "description": "博客镜像/存档"
+      "type": "audit",
+      "path": "skills/celebrity/hecaitou/knowledge/research/reviews/research_audit.md"
+    },
+    {
+      "type": "synthesis",
+      "path": "skills/celebrity/hecaitou/knowledge/research/reviews/synthesis.md"
     }
   ],
-  "research_metadata": {
-    "research_date": "2026-05-23",
-    "collection_strategy": "local-first",
-    "tracks_covered": 6,
-    "primary_source_ratio": "100%",
-    "audit_status": "PASS",
-    "blacklist_sources": "none",
-    "mental_models_count": 5,
-    "decision_heuristics_count": 8,
-    "internal_tensions_count": 4,
-    "validation_status": "pending"
-  },
-  "limitations": {
-    "missing_dimensions": [
-      "early-writings (2005-2024)",
-      "spoken-language-samples",
-      "external-independent-reviews",
-      "private-decisions"
-    ],
-    "research_window": "2025-01 to 2026-05 only",
-    "improvement_materials": [
-      "his book 你不重要，你的喜欢很重要",
-      "podcast/video interviews",
-      "early blog posts (2005-2020)",
-      "public exchanges with friends (南派三叔, 脱不花, 罗振宇)"
-    ]
-  },
   "type": "celebrity",
   "lifecycle": {
     "status": "active",
-    "created_at": "2026-05-23T10:05:39.461736+00:00",
-    "updated_at": "2026-05-23T10:05:39.461736+00:00",
+    "created_at": "2026-05-23T18:17:22.694786+00:00",
+    "updated_at": "2026-05-23T18:17:22.694786+00:00",
     "version": "v1"
   },
   "generation": {
@@ -162,24 +106,21 @@
     },
     "created_from": [
       {
-        "type": "local-articles",
-        "path": "sample/hecaitou/",
-        "files": 17,
-        "date_range": "2025-01 to 2026-05",
-        "weight": 1,
-        "description": "17个月公众号文章合集，约22000行"
+        "type": "local_sample",
+        "path": "sample/*.md",
+        "description": "2025-06 至 2026-05 作者博客 Atom feed 月度文章汇总"
       },
       {
-        "type": "personal-blog",
-        "url": "https://www.hecaitou.com",
-        "weight": 2,
-        "description": "个人博客主站"
+        "type": "research_summary",
+        "path": "skills/celebrity/hecaitou/knowledge/research/merged/summary.md"
       },
       {
-        "type": "personal-blog",
-        "url": "https://www.hecaitou.info",
-        "weight": 2,
-        "description": "博客镜像/存档"
+        "type": "audit",
+        "path": "skills/celebrity/hecaitou/knowledge/research/reviews/research_audit.md"
+      },
+      {
+        "type": "synthesis",
+        "path": "skills/celebrity/hecaitou/knowledge/research/reviews/synthesis.md"
       }
     ],
     "corrections_count": 0
@@ -265,9 +206,8 @@
     "legacy_storage_root": "skills/celebrity",
     "legacy_type": "celebrity"
   },
-  "summary": "和菜头, Celebrity",
-  "created_at": "2026-05-23T10:05:39.461736+00:00",
-  "updated_at": "2026-05-23T10:05:39.461736+00:00",
+  "created_at": "2026-05-23T18:17:22.694786+00:00",
+  "updated_at": "2026-05-23T18:17:22.694786+00:00",
   "version": "v1",
   "corrections_count": 0
 }
