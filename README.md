@@ -57,6 +57,8 @@ Massive thanks to everyone who starred — we'll keep shipping, keep distilling.
 
 </div>
 
+> 📝 **2026.06.01 Update** — **[COLLEAGUE.SKILL 技术报告](colleague_skill.pdf) 已上线**；这次最开心的不只是发了篇 paper，而是社区一起把 gallery 推到 215 个 skills、165 位贡献者和 100k+ skill-card 累计 stars，论文 Acknowledgements 也专门收录并感谢了所有社区贡献者。
+
 > 📢 **2026.05.11 Update** — **WeChat group 12 is live!** Come hang out with the dot-skill community — share skills, discuss features, trade tips.
 >
 > <img src="docs/assets/wechat-group-qr-12.png" alt="dot-skill WeChat group QR" width="240">
@@ -110,6 +112,7 @@ Each family has its own prompt pipeline, source-collection strategy, and generat
 ### 3️⃣ More Agent hosts
 
 The old version only ran in Claude Code. Now it's cross-host across four:
+Compatible hosts:
 
 | Host | Description |
 |------|-------------|
@@ -162,6 +165,9 @@ git clone https://github.com/titanwings/colleague-skill <TARGET>
 | Hermes | After clone, run `python3 tools/install_hermes_skill.py --force` |
 
 </details>
+
+Generated character Skills can be published with `tools/install_claude_generated_skill.py`,
+`tools/install_openclaw_generated_skill.py`, and `tools/install_codex_generated_skill.py`.
 
 > For Feishu/DingTalk auto-collection credentials, publishing a generated character Skill to any host, Windows-specific handling, etc., see **[Detailed Install Guide (INSTALL.md)](INSTALL.md)**
 
@@ -297,7 +303,8 @@ dot-skill uses **Persona** as the universal base, with family-specific modules l
 
 ## 📂 Project Structure
 
-This project follows the [AgentSkills](https://agentskills.io) open standard. The entire repo is a skill directory:
+This project follows the [AgentSkills](https://agentskills.io) open standard. The entire repo is a skill directory.
+Generated colleague skills live under `./skills/colleague`:
 
 ```
 dot-skill/
@@ -356,7 +363,7 @@ dot-skill/
 
 ## 📄 Technical Report
 
-> **[Colleague.Skill: Automated AI Skill Generation via Expert Knowledge Distillation](colleague_skill.pdf)**
+> **[COLLEAGUE.SKILL: Automated AI Skill Generation via Expert Knowledge Distillation](colleague_skill.pdf)** ([arXiv](https://arxiv.org/abs/2605.31264) · [arXiv PDF](https://arxiv.org/pdf/2605.31264))
 >
 > This is the paper for **colleague.skill**, dot-skill's predecessor. It covers the Work Skill + Persona two-layer architecture, multi-source data collection, and Skill generation mechanics — the theoretical foundation for today's `colleague` family. Separate papers on the relationship / celebrity family extensions are planned.
 
@@ -368,10 +375,13 @@ If you use **dot-skill** or **colleague.skill** in your research or applications
 
 ```bibtex
 @misc{zhou2026colleagueskill,
-  title        = {Colleague.Skill: Automated AI Skill Generation via Expert Knowledge Distillation},
+  title        = {COLLEAGUE.SKILL: Automated AI Skill Generation via Expert Knowledge Distillation},
   author       = {Tianyi Zhou and Dongrui Liu and Leitao Yuan and Jing Shao and Xia Hu},
   year         = {2026},
-  url          = {https://github.com/titanwings/colleague-skill/blob/dot-skill/colleague_skill.pdf}
+  eprint       = {2605.31264},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.AI},
+  url          = {https://arxiv.org/abs/2605.31264}
 }
 ```
 
