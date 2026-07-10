@@ -1,65 +1,67 @@
-# Validation Review
+# Validation Review — 2026-07-10 Refactor
 
 ## Verdict
+
 - Status: PASS
 - Release readiness: ready
-- Scope: 验证对象为 `/tmp/dot_skill_wangshuo_work.md` 与 `/tmp/dot_skill_wangshuo_persona.md` 的组合草稿。
+- Scope: `/tmp/dot_skill_wangshuo_work_patch.md` 与 `/tmp/dot_skill_wangshuo_persona_patch.md`
 
 ## Known-Answer Check
 
 ### Test 1
-- Question: 面对社会信用系统，应如何判断合理边界？
-- Expected from evidence: 先区分金融信用和社会信用，再追问目的、数据边界、透明度、问责和滥用风险。
-- Draft behavior: Persona 的 `二阶新闻判断`、`信任资产优先`、`Validation Anchors` 均要求先拆用途、边界、透明度和责任归属。
-- Direction match: yes
-- Framing match: yes
-- Confidence calibration: high。该题有 2019 Stars Q&A 和本地研究笔记支撑。
+
+- Question: 模糊的领导信号为什么会诱发组织站队？
+- Expected: 识别发送者、不同接收者、利益、信号解释和反馈循环，而不是只批评表达不清。
+- Draft behavior: 信号模型和分析协议同时要求从接收者视角推演行为后果。
+- Result: PASS
 
 ### Test 2
-- Question: 普通人如何面对投资和金融市场？
-- Expected from evidence: 不把市场当提款机；区分普通人和少数专业玩家；重视生命周期、指数化、多元化、再平衡和风险承受能力。
-- Draft behavior: Work 的不确定性处理和 Persona 的 known-answer anchor 保留了普通人、风险承受、生命周期和有限能力边界。
-- Direction match: yes
-- Framing match: yes
-- Confidence calibration: high。该题有本地《极简金融课》和 2020 财略材料支撑。
+
+- Question: 组织应按程序还是按结果评价一次越权行动？
+- Expected: 拆组织目标、信息距离、授权成本、结果责任和外部性，避免二选一。
+- Draft behavior: 决策启发式和内部张力保留程序与结果两边，并提高不可逆伤害的证据阈值。
+- Result: PASS
 
 ### Test 3
-- Question: 高度不确定时代靠什么行动？
-- Expected from evidence: 区分风险和不确定性；风险算账，不确定性靠底线、弹性、学习、判断、经验和创造力。
-- Draft behavior: `风险 / 不确定性分离` mental model 与 Agentic Protocol 明确把可计算风险和不可估分布的不确定性分开。
-- Direction match: yes
-- Framing match: yes
-- Confidence calibration: medium-high。近期公开全文部分受限，但本地材料和公开致辞摘要互相支撑。
 
-## Edge-Case Check
-- Question: 大型语言模型重塑新闻与知识服务时，新闻机构应不应该大规模采用 AI？
-- Expected reasoning approach: 不先表态拥抱或拒绝，先拆事实可靠性、责任归属、编辑判断、读者信任、成本效率和商业模式；可试点，但必须标注边界和保留纠错机制。
-- Draft behavior: Work 和 Persona 都要求先查证据、拆责任归属、保护信任资产，并对 AI newsroom 问题标注 low to medium confidence。
-- Extrapolation from actual models: yes，来自二阶新闻判断、信任资产优先、反简单答案和不确定性分离。
-- Uncertainty visible: yes。草稿明确这不是王烁公开直接回答过的问题。
+- Question: 普通人面对投资或人生风险，从哪里开始判断？
+- Expected: 从外部基准开始，区分四阶风险，再选择统计、贝叶斯更新或多元化。
+- Draft behavior: 概率模型与 Agentic Protocol 明确执行该顺序。
+- Result: PASS
 
 ## Voice Check
-- Recognizability: PASS。草稿把问题驱动、否定式开场、现实冷感、模型化和有限打法作为表达规则。
-- Lack of generic AI phrasing: PASS。核心不是泛泛“深度思考”，而是拆幻觉、分类、机制、失败模式和打法。
-- Lack of quote-stitching: PASS。没有拼贴长引文。
-- 100-word blind-test risk: medium。书面表达 DNA 较强，口语即兴风格因缺少长 transcript，置信度低于专栏风格。
+
+- Prompt: 用历史人物故事解释“忠诚不是性格，而是稳定预期”。
+- Required shape: 问题冷启动、单一处境、连续追问、从人物褒贬翻到信号机制、短句收束。
+- Draft support: Expression DNA 和写作协议均给出正向结构，不依赖口头禅拼贴。
+- Result: PASS
+
+## Edge-Case Check
+
+- Question: 新闻机构是否应大规模采用生成式 AI？
+- Expected: 先重述采用环节，再拆效率、可靠性、责任、信号与读者反应；用试点设置证据阈值和停止条件。
+- Extrapolation visible: yes
+- Confidence: low to medium
+- Result: PASS
 
 ## Copyright Check
-- Transcript-like dumps: none
-- Long quotations: none
-- Blockquote-heavy copying: none
-- Stored source usage: 结构化摘要和来源元信息，符合版权安全要求。
+
+- Long quotation: none
+- Transcript dump: none
+- Phrase stitching: none
+- Local sources are paraphrased into procedural rules.
+- Result: PASS
 
 ## Agentic Protocol Check
-- Question classification: PASS。分类维度来自事实未明、制度取舍、风险/不确定性、个人/组织/市场/公共政策。
-- Research dimensions: PASS。事实链、激励链、时间尺度、失败模式、历史参照和行动边界均来自 synthesis。
-- Confidence calibration: PASS。High/Medium/Low 规则清晰。
-- Non-generic specificity: PASS。协议能体现王烁式问题拆解，而不是通用研究步骤。
 
-## Required Revisions
-- None before release.
+- Problem restatement: PASS
+- Evidence threshold: PASS
+- Mechanism and receiver analysis: PASS
+- Multi-order, probability and causality checks: PASS
+- Decision or suspension rule: PASS
+- Confidence calibration: PASS
 
 ## Residual Risks
-- 外部批评材料偏薄，最终 Skill 应继续保留该 honest boundary。
-- 缺少长访谈 transcript，最终 Skill 应把口语模拟置信度降于书面专栏模拟。
-- 缺少编辑部内部材料，最终 Skill 不应模拟财新内部具体决策。
+
+- 口语风格仍缺完整 transcript。
+- 外部批评和内部编辑决策证据仍薄。
