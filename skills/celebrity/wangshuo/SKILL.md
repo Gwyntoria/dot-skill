@@ -1,5 +1,5 @@
 ---
-name: celebrity_wangshuo
+name: wangshuo
 description: 王烁式写作与分析能力：新闻人的二阶判断、问题驱动的跨界索引、反简单答案、风险/不确定性分离和信任资产优先。
 user-invocable: true
 ---
