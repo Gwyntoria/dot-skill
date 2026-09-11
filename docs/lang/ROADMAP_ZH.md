@@ -1,8 +1,8 @@
 <div align="center">
 
-# dot-skill Roadmap 🗺️
+# Distilly 路线图 🗺️
 
-### 从「同事.skill」到「dot-skill」—— 把任何人蒸馏成 AI Skill
+### 从 Colleague Skill / `colleague-skill`（原「同事 Skill」）到 Distilly —— 把人物蒸馏成可供 AI Agent 与兼容 Bot 复用的 Skill
 
 <br>
 
@@ -13,13 +13,13 @@
 但社区告诉我们，这件事远不止同事 ——
 你们蒸馏了罗翔、蒸馏了前任、蒸馏了自己、甚至蒸馏了虚拟角色。
 
-**所以我们决定，把 colleague.skill 进化成 dot-skill。**
+**所以我们决定，把 Colleague Skill / `colleague-skill`（原「同事 Skill」）升级为 Distilly。**
 
-任何人，都可以成为一个 `.skill`。
+任何人物，都可以被蒸馏成 `.skill`，供 AI Agent 与兼容 Bot 复用。
 
 <br>
 
-*最后更新：2026-04-13*
+*最后更新：2026-08-23*
 
 [**English**](../../ROADMAP.md) · [**Español**](ROADMAP_ES.md) · [**Deutsch**](ROADMAP_DE.md) · [**日本語**](ROADMAP_JA.md) · [**Русский**](ROADMAP_RU.md) · [**Português**](ROADMAP_PT.md) · [**한국어**](ROADMAP_KO.md)
 
@@ -33,7 +33,7 @@
 
 | 能力 | 状态 |
 |------|:----:|
-| `/create-colleague` 完整创建流程 | ✅ |
+| `/distilly` 选择人物类型后的完整创建流程 | ✅ |
 | 飞书全量自动采集（消息 + 文档 + 表格） | ✅ |
 | 钉钉自动采集 | ✅ |
 | Slack 自动采集 | ✅ |
@@ -46,7 +46,7 @@
 
 ---
 
-## 🔜 即将到来
+## 🗺️ 路线图阶段
 
 ### 🏗️ Phase 1 —— 社区共建
 
@@ -64,22 +64,22 @@
 
 ---
 
-### 🌍 Phase 2 —— dot-skill：不止同事
+### 🌍 Phase 2 —— Distilly：不止同事
 
-> colleague.skill 是起点，dot-skill 是未来。
+> Colleague Skill / `colleague-skill`（原「同事 Skill」）是起点，Distilly 是未来。
 
-**核心变化：**
+**已经上线：**
 
-- **`/create-skill` 通用入口** —— 不再局限于"创建同事"，任何人都能蒸馏
-  - `/create-colleague` 蒸馏同事、导师、实习生
-  - `/create-ex` 蒸馏前任、老友、失联的人
-  - `/create-icon` 蒸馏名人、历史人物
-  - 或者……蒸馏你自己
+- **`/distilly` 作为统一正式入口** —— 选择 `colleague`、`relationship` 或 `celebrity`，再蒸馏任何人物，包括你自己
+- **可移植的生成 Skill** —— 在受支持的 Agent 宿主中使用 `{character}-{slug}` 正式名称
+
+**尚未上线的后续扩展：**
+
 - **Gallery 分类升级** —— 同事 / 名人 / 亲密关系 / 虚拟角色 / 自我 / 元技能，按需浏览
 - **更多数据源**
   - 企业微信支持
   - iMessage 自动读取
-  - Windows 兼容性修复
+- **平台兼容性** —— Windows 兼容性修复
 
 **你可以做：** 提交你想蒸馏的人物类型需求、贡献新的数据源采集器、参与 Gallery 分类设计讨论
 
@@ -125,9 +125,9 @@
 | 方式 | 链接 |
 |------|------|
 | 提交你的 .skill | [Gallery PR](https://titanwings.github.io/colleague-skill-site/) |
-| 讨论与提议 | [GitHub Discussions](https://github.com/titanwings/colleague-skill/discussions)（即将开放） |
+| 讨论与提议 | [GitHub Discussions](https://github.com/titanwings/distilly/discussions)（即将开放） |
 | 实时交流 | [Discord](https://discord.gg/NVX66RxWZv) |
-| 报告 Bug | [Issue](https://github.com/titanwings/colleague-skill/issues/new) |
+| 报告 Bug | [Issue](https://github.com/titanwings/distilly/issues/new) |
 | 贡献代码 | 看 `good-first-issue` 标签，或直接提 PR |
 
 **我们尤其需要：**

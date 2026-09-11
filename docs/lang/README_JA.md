@@ -1,18 +1,17 @@
 <div align="center">
 
-# 🧬 dot-skill（同事.skill）
+# 🧬 Distilly
 
-### *「LLMを作ってるお前らは全員コードの賢者だ！肉体は脆弱！サイバー空間へ昇天せよ！」*
+**旧称：Colleague Skill / colleague-skill。**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Distilly — Distill how they think into Person Profiles for Agents](../social-preview-distilly-v7.png)
+
+### **Distill how they think.**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](../../LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green)](https://agentskills.io)
-[![Stars](https://img.shields.io/github/stars/titanwings/colleague-skill?style=social)](https://github.com/titanwings/colleague-skill/stargazers)
-
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
-[![Hermes](https://img.shields.io/badge/Hermes-Skill-orange)](https://github.com/titanwings/colleague-skill)
-[![OpenClaw](https://img.shields.io/badge/OpenClaw-Skill-teal)](https://github.com/titanwings/colleague-skill)
-[![Codex](https://img.shields.io/badge/Codex-Skill-black)](https://github.com/titanwings/colleague-skill)
+[![Stars](https://img.shields.io/github/stars/titanwings/colleague-skill?style=social)](https://github.com/titanwings/distilly/stargazers)
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/NVX66RxWZv)
 
@@ -28,22 +27,21 @@
 </td></tr>
 </table>
 
-### ✨ dot-skill はこの3つをまとめて解決します。
+### ✨ Distilly は人物を再利用可能な Person Profile へ蒸留します。
 
 <br>
 
-**colleague.skill** から **dot-skill** へ進化——同僚だけでなく、**誰でも** Skill に蒸留可能に
+Distilly は、人物の根拠ある経験・判断・語り口・仕事の進め方を、AIエージェントや互換Botで再利用できる Person Profile へ蒸留します。
 
 同僚・パートナー・家族・旧友・アイドル・著名人・架空のキャラクター——さらには自分自身まで
 
-**ソース素材＋あなたの描写 → 本当にその人のように思考する AI Skill**
-その人のフレームで考え、その人の声で語る
+**ソース資料 + あなたの説明 → 根拠に基づく Person Profile → Agent / Bot**
 
 <br>
 
 [🆕 What's new](#-このメジャーリリースの新機能) · [📦 データソース](#-対応データソース) · [⚡ インストール](#-インストール) · [🚀 使い方](#-使い方) · [✨ デモ](#-デモ) · [💬 Discord](https://discord.gg/NVX66RxWZv)
 
-[**English**](../../README.md) · [**中文**](README_ZH.md) · [**Español**](README_ES.md) · [**Deutsch**](README_DE.md) · [**Русский**](README_RU.md) · [**Português**](README_PT.md) · [**한국어**](README_KO.md)
+[**英語**](../../README.md) · [**中国語**](README_ZH.md) · [**スペイン語**](README_ES.md) · [**ドイツ語**](README_DE.md) · [**ロシア語**](README_RU.md) · [**ポルトガル語**](README_PT.md) · [**韓国語**](README_KO.md)
 
 </div>
 
@@ -51,27 +49,23 @@
 
 <div align="center">
 
-### 🎉 2026.04.19 マイルストーン — **dot-skill が 15k ⭐ を突破しました！**
+### 🎉 2026.08.13 マイルストーン — **Distilly が 20K ⭐ を突破しました！**
 
 スターをくださった皆さま、本当にありがとうございます——これからもリリースを重ね、蒸留を続けます。
 
 </div>
 
-> 📝 **2026.06.01 更新** — **[COLLEAGUE.SKILL 技術レポート](../../colleague_skill.pdf) を公開しました**。今回いちばん嬉しいのは paper の公開そのものだけでなく、コミュニティの力で gallery が 165 名のコントリビューターによる 215 skills、skill cards 累計 100k+ stars まで育ち、論文の Acknowledgements に全員を記載できたことです。
+> 🧬 **2026.08.24 更新** — Creator 名、ディレクトリ名、エントリポイントを **Distilly** に統一しました。Claude Code、Hermes、OpenClaw、Codex、DeepSeek Harness、Pi、Grok Build、OpenCode のローカル Skill 検出を各ホストの現行仕様に沿って記載し、Grok Bot は保存済み Skill の別プレビューフローとして扱います。
 
-> 📢 **2026.05.11 更新** — **WeChat グループ 12 が稼働中！** dot-skill コミュニティに遊びに来ませんか——skill の共有、機能の議論、Tips の交換、なんでもどうぞ。
->
-> <img src="../assets/wechat-group-qr-12.png" alt="dot-skill WeChat group QR" width="240">
->
-> QR は 7 日ごとに更新されます（2026-05-18 に期限切れ）——期限切れの場合は Discord で連絡してください。
+> 📝 **2026.06.01 更新** — **[COLLEAGUE.SKILL 技術レポート](https://arxiv.org/pdf/2605.31264) を公開しました**。今回いちばん嬉しいのは paper の公開そのものだけでなく、コミュニティの力で gallery が 165 名のコントリビューターによる 215 skills、skill cards 累計 100k+ stars まで育ち、論文の Acknowledgements に全員を記載できたことです。
 
-> 🗺️ **2026.04.13** — **dot-skill Roadmap 公開！** colleague.skill は **dot-skill** へと進化中——同僚だけでなく、誰でも蒸留できます。 👉 **[Roadmap 全文を読む](../../ROADMAP.md)** · **[💬 Discord](https://discord.gg/NVX66RxWZv)**
+> 🗺️ **2026.04.13** — **Distilly Roadmap 公開！** colleague.skill として始まったプロジェクトは、現在 **Distilly** という名称で、同僚に限らずあらゆる人物を蒸留します。 👉 **[Roadmap 全文を読む](../../ROADMAP.md)** · **[💬 Discord](https://discord.gg/NVX66RxWZv)**
 
 > 🌐 **2026.04.07** — コミュニティギャラリーが稼働開始！どんな skill や meta-skill でも、自分の GitHub リポジトリへ直接トラフィックを流せます。仲介なし。 👉 **[titanwings.github.io/colleague-skill-site](https://titanwings.github.io/colleague-skill-site/)**
 
 <div align="center">
 
-Created by [@titanwings](https://github.com/titanwings) · Powered by **Shanghai AI Lab · AI Safety Center**
+Created by [@titanwings](https://github.com/titanwings)
 
 </div>
 
@@ -79,9 +73,9 @@ Created by [@titanwings](https://github.com/titanwings) · Powered by **Shanghai
 
 ## 🆕 このメジャーリリースの新機能
 
-### 1️⃣ colleague-skill から dot-skill へ
+### 1️⃣ Colleague Skill から Distilly へ
 
-もはや「同僚」シナリオだけを想定した作りではありません。統一された `/dot-skill` エントリポイントが汎用スキルエンジンの上に載り、ひとつのエンジンで誰でも蒸留できるようになりました——同僚専用スクリプトだった時代は終わりです。
+Distilly は「同僚」シナリオだけを想定した作りではありません。`distilly` Creator は、同じワークフローで3つの人物ファミリー向けに根拠に基づく Person Profile を作成し、それぞれを Agent Skill としてパッケージ化します。Creator Skill とエントリポイントの正式名称は `distilly` です。
 
 ### 2️⃣ 3つのキャラクターファミリー
 
@@ -100,113 +94,91 @@ Created by [@titanwings](https://github.com/titanwings) · Powered by **Shanghai
 <td align="center"><sub>著名人・クリエイター・論客・架空のキャラクター</sub></td>
 </tr>
 <tr>
-<td><sub>Work Skill + Persona の二層アーキテクチャ——技術基準やワークフローと、話し方や職場での立ち居振る舞いの両方を学習します。Feishu / DingTalk / Slack の自動収集に対応。</sub></td>
+<td><sub>Work Skill + Persona の二層アーキテクチャ——技術基準やワークフローと、話し方や職場での立ち居振る舞いの両方を学習します。Lark / DingTalk / Slack の自動収集に対応。</sub></td>
 <td><sub>🆕 <b>写真共有機能が近日登場</b> — 蒸留された関係性は、メッセージに返信するだけではありません。実在の人のように写真を送り、日常の一コマを共有してくれるようになります。</sub></td>
-<td><sub><b>6次元リサーチの完全なツールチェーン</b>（字幕ダウンロード → トランスクリプト整形 → リサーチ統合 → 品質チェック）を標準装備。口調の模倣ではなく、思考モデルと意思決定フレームの再現を目指します。</sub></td>
+<td><sub><b>6次元リサーチの完全なツールチェーン</b>（字幕ダウンロード → トランスクリプト整形 → リサーチ統合 → 品質チェック）を標準装備。単なる口調模倣ではなく、ソースから確認できる思考・意思決定パターンを再構成します。</sub></td>
 </tr>
 </tbody>
 </table>
 
-各ファミリーは独自のプロンプトパイプライン、素材収集戦略、生成テンプレートを持ちます。
+各ファミリーは独自の素材収集戦略、分析軸、Person Profile 構造を持ちます。
 
 ### 3️⃣ 対応Agentホストの拡大
 
-旧バージョンは Claude Code 専用でしたが、今では4つのホストに横断対応：
+Distilly は、8つのローカル Agent ホストに対応しています：
 
-| ホスト | 説明 |
-|------|-------------|
-| 🟣 **Claude Code** | スラッシュコマンドにネイティブ対応 |
-| 🟠 **Hermes Agent** | ワンコマンドでインストール、`/dot-skill` がそのまま動作 |
-| 🔵 **OpenClaw** | 完全互換 |
-| ⚫ **Codex** | skill 名で呼び出し |
+<table>
+<tr>
+<td align="center" width="25%"><a href="https://claude.ai/code"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/hosts/claude-code-wordmark-dark.svg"><img src="../assets/hosts/claude-code-wordmark-light.svg" alt="Claude Code" height="28"></picture></a></td>
+<td align="center" width="25%"><a href="https://github.com/NousResearch/hermes-agent"><img src="../assets/hosts/hermes-agent-wordmark.png" alt="Hermes Agent" height="32"></a></td>
+<td align="center" width="25%"><a href="https://github.com/openclaw/openclaw"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/hosts/openclaw-wordmark-dark.svg"><img src="../assets/hosts/openclaw-wordmark-light.svg" alt="OpenClaw" height="38"></picture></a></td>
+<td align="center" width="25%"><a href="https://github.com/openai/codex" title="Codex"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/hosts/codex-mark-dark.png"><img src="../assets/hosts/codex-mark-light.png" alt="Codex" height="64"></picture></a></td>
+</tr>
+<tr>
+<td align="center" width="25%"><a href="https://github.com/deepseek-ai/deepseek-harness"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/hosts/deepseek-wordmark-dark.svg"><img src="../assets/hosts/deepseek-wordmark-light.svg" alt="DeepSeek Harness" height="32"></picture></a></td>
+<td align="center" width="25%"><a href="https://pi.dev/docs/latest/skills"><img src="../assets/hosts/pi-mark.svg" alt="Pi coding agent" height="46"></a></td>
+<td align="center" width="25%"><a href="https://docs.x.ai/build/features/skills-plugins-marketplaces"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/hosts/grok-build-mark-dark.png"><img src="../assets/hosts/grok-build-mark-light.png" alt="Grok Build" height="46"></picture></a></td>
+<td align="center" width="25%"><a href="https://opencode.ai/docs/skills"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/hosts/opencode-wordmark-dark.svg"><img src="../assets/hosts/opencode-wordmark-light.svg" alt="OpenCode" height="32"></picture></a></td>
+</tr>
+</table>
 
-生成されたキャラクター Skill も、いずれのホストにもワンコマンドでインストール可能です。
+生成された各 Person Profile は Agent Skill としてパッケージ化され、対応ホストの Skill ディレクトリに配置できます。
+
+**Grok Bot（preview）** は別の手動フローです。Distilly の workflow を保存済み private Skill へ手動で移行し、対象の Bot で有効にします。このリポジトリの `SKILL.md` を Grok Bot に直接インストールする方法は、公式文書になく、検証もされていません。
 
 ---
 
 ## 📦 対応データソース
 
-| ソース | メッセージ | ドキュメント / Wiki | スプレッドシート | 備考 |
-|--------|:--------:|:-----------:|:------------:|------|
-| 🟢 Feishu（自動） | ✅ API | ✅ | ✅ | 名前を入力するだけで全自動 |
-| 🟡 DingTalk（自動） | ⚠️ ブラウザ | ✅ | ✅ | DingTalk API はメッセージ履歴に非対応 |
-| 🟣 Slack（自動） | ✅ API | — | — | 管理者による Bot 導入が必要；無料プランは 90 日制限 |
-| 💬 WeChat チャット履歴 | ✅ SQLite | — | — | WeChatMsg / PyWxDump / 留痕 で先にエクスポート |
-| 📄 PDF / 画像 / スクリーンショット | — | ✅ | — | 手動アップロード |
-| 📦 Feishu JSON エクスポート | ✅ | ✅ | — | 手動アップロード |
-| ✉️ メール `.eml` / `.mbox` | ✅ | — | — | 手動アップロード |
-| 📝 Markdown / 直接貼り付け | ✅ | ✅ | — | 手動入力 |
+| ロゴ | ソース | メッセージ | ドキュメント / Wiki | 備考 |
+|:----:|--------|:--------:|:-------------------:|------|
+| <img src="../assets/sources/lark-mark.png" alt="Lark" width="32" height="32"> | Lark（自動） | ✅ API | ✅ | 名前を入力するだけで全自動 |
+| <img src="../assets/sources/dingtalk-mark.jpg" alt="DingTalk" width="32" height="32"> | DingTalk（自動） | ⚠️ ブラウザ | ✅ | DingTalk API はメッセージ履歴に非対応 |
+| <img src="../assets/sources/slack-mark.png" alt="Slack" width="32" height="32"> | Slack（自動） | ✅ API | — | 管理者による Bot 導入が必要；無料プランは 90 日制限 |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/sources/x-mark-dark.svg"><img src="../assets/sources/x-mark-light.svg" alt="X" width="32" height="32"></picture> | 公開 X 投稿 | ✅ API | — | Xquik 経由の任意・件数制限付き celebrity リサーチ候補 |
+| <img src="../assets/sources/wechat-mark.jpg" alt="WeChat" width="32" height="32"> | WeChat チャット履歴 | ✅ SQLite | — | WeChatMsg または PyWxDump で先にエクスポート |
+| 📄 | PDF / 画像 / スクリーンショット | — | ✅ | 手動アップロード |
+| <img src="../assets/sources/lark-mark.png" alt="Lark" width="32" height="32"> | Lark JSON エクスポート | ✅ | ✅ | 手動アップロード |
+| ✉️ | メール `.eml` / `.mbox` | ✅ | — | 手動アップロード |
+| 📝 | Markdown / 直接貼り付け | ✅ | ✅ | 手動入力 |
+
+> 現在の Lark 互換 collector は中国リージョンのエンドポイントを使用しています。国際版 `larksuite.com` テナントへのルーティングはまだ実装されていません。
 
 ---
 
 ## ⚡ インストール
 
-いまは 2026 年——あなたには Agent がいます。自分でインストールさせましょう。お手元の Claude Code / Hermes / OpenClaw / Codex を開いて、この一行を渡してください：
+### 🤖 Agent 向け
 
-> dot-skill をインストールして：`https://github.com/titanwings/colleague-skill`
+対応するローカル Agent ホストを開き、次の一文を送ってください：
 
-Agent は現在のホストの skills ディレクトリを検出し、リポジトリを clone してエントリポイントを登録します。完了後、どのホストでも `/dot-skill` と入力すれば起動します。
+> `https://github.com/titanwings/distilly` から Distilly をインストールし、このホストが Distilly を検出できることを確認してください。
 
-<details>
-<summary><b>🛠️ 自分でインストールしたい？パスはこちら</b></summary>
+Agent は、現在のホストに適したディレクトリへ Skill 名 `distilly` でインストールします。
 
-<br>
+### 👤 手動でインストールする場合
 
 ```bash
-git clone https://github.com/titanwings/colleague-skill <TARGET>
+git clone https://github.com/titanwings/distilly <DISTILLY_SKILL_DIR>
 ```
 
-| ホスト | `<TARGET>` パス |
-|------|-----------------|
-| Claude Code | `~/.claude/skills/dot-skill` |
-| OpenClaw | `~/.openclaw/workspace/skills/dot-skill` |
-| Codex | `~/.codex/skills/dot-skill` |
-| Hermes | clone 後に `python3 tools/install_hermes_skill.py --force` を実行 |
-
-</details>
-
-> Feishu/DingTalk 自動収集のクレデンシャル、生成したキャラクター Skill を各ホストへ公開する手順、Windows 固有の注意点などは **[詳細インストールガイド (INSTALL.md)](../../INSTALL.md)** を参照してください。
+ホストごとのパス、既存インストールの移行、Windows 対応、生成した Profile のインストール、収集用クレデンシャルについては、**[詳細インストールガイド (INSTALL_EN.md)](../../INSTALL_EN.md)** を参照してください。
 
 ---
 
 ## 🚀 使い方
 
-dot-skill をインストールしたホストで起動します——`/dot-skill` と入力するか、単に Agent に「dot-skill を起動して」と伝えるだけ。
+Agent に次のように依頼してください：
 
-まずどのファミリーを蒸留するか聞かれます：`colleague`、`relationship`、`celebrity` のいずれか。
+> Distilly を使って `<person>` の Person Profile を作成してください。
 
-次にニックネーム、基本プロフィール、性格タグを入力し、データソースを選びます。すべての項目はスキップ可能——説明文だけでも Skill は生成できます。
+1. `colleague`、`relationship`、`celebrity` から人物タイプを選びます。
+2. 説明や資料を渡します。入力項目はすべてスキップできます。
+3. 内容を確認してから Profile を生成します。
 
-作成後は、生成された Skill を `/{character}-{slug}` で呼び出します。
+生成された Profile は、`{character}-{slug}` という名前の Agent Skill としてパッケージ化されます。
 
-### 🎛️ コマンド
-
-| コマンド | 説明 |
-|---------|------|
-| `/dot-skill` | 標準の統一エントリポイント |
-| `/{character}-{slug}` | フル Skill を呼び出し（Persona + Work） |
-| `/{character}-{slug}-work` | 仕事能力のみ |
-| `/{character}-{slug}-persona` | Persona のみ |
-| `python3 tools/skill_writer.py --action list ...` | 3 ファミリー横断で生成済み Skill を一覧表示 |
-| `python3 tools/version_manager.py --action rollback ...` | Skill のバージョンをロールバック |
-
-### 🔬 Celebrity Research Toolchain
-
-`celebrity` ファミリーには、字幕から完成稿までをカバーするエンドツーエンドのリサーチツールチェーンが同梱されています：
-
-```bash
-# 動画の字幕をダウンロード
-bash tools/research/download_subtitles.sh "<video-url>" "./tmp/subtitles"
-
-# 字幕 → トランスクリプト
-python3 tools/research/srt_to_transcript.py "./tmp/subtitles/example.srt"
-
-# リサーチノートを統合
-python3 tools/research/merge_research.py "./skills/celebrity/<slug>"
-
-# 品質チェック
-python3 tools/research/quality_check.py "./skills/celebrity/<slug>/SKILL.md"
-```
+Celebrity リサーチや高度なツールについては、**[詳細インストールガイド (INSTALL_EN.md)](../../INSTALL_EN.md)** を参照してください。
 
 ---
 
@@ -278,7 +250,7 @@ relationship.skill ❯ ……ちょっとだけね。なんで訊くの？
 
 ### 🧱 生成される Skill の構造
 
-dot-skill は **Persona** を共通の土台とし、その上にファミリー固有モジュールを重ねる構成です：
+Distilly は **Persona** を共通の土台とし、その上にファミリー固有モジュールを重ねる構成です：
 
 | ファミリー | Persona の内容 | 追加モジュール |
 |--------|-----------------|-------------------|
@@ -297,59 +269,17 @@ dot-skill は **Persona** を共通の土台とし、その上にファミリー
 
 ---
 
-## 📂 プロジェクト構造
-
-本プロジェクトは [AgentSkills](https://agentskills.io) オープン標準に準拠しています。リポジトリ全体がひとつの skill ディレクトリです：
-
-```
-dot-skill/
-├── SKILL.md                        # skill entry point (official frontmatter)
-├── prompts/                        # prompt system across three families
-│   ├── intake.md                   #   [colleague] info intake
-│   ├── work_analyzer.md            #   [colleague] work capability extraction
-│   ├── persona_analyzer.md         #   [colleague] personality extraction
-│   ├── work_builder.md             #   [colleague] work.md generation
-│   ├── persona_builder.md          #   [colleague] persona.md 6-layer structure
-│   ├── merger.md                   #   [shared] incremental merge logic
-│   ├── correction_handler.md       #   [shared] conversation correction
-│   ├── relationship/               #   [relationship] emotion/conflict/repair prompts
-│   └── celebrity/                  #   [celebrity] six-dimension research + mental-model prompts
-├── tools/                          # Python tools
-│   ├── feishu_auto_collector.py    #   [colleague] Feishu auto-collector
-│   ├── dingtalk_auto_collector.py  #   [colleague] DingTalk auto-collector
-│   ├── slack_auto_collector.py     #   [colleague] Slack auto-collector
-│   ├── email_parser.py             #   [shared] email parser
-│   ├── research/                   #   [celebrity] celebrity research toolchain
-│   │   ├── download_subtitles.sh   #     subtitle download
-│   │   ├── transcribe_audio.py     #     audio → text
-│   │   ├── srt_to_transcript.py    #     subtitles → transcript
-│   │   ├── merge_research.py       #     six-dimension research merge
-│   │   └── quality_check.py        #     quality check
-│   ├── install_*_skill.py          #   [shared] multi-host one-shot installers
-│   ├── skill_writer.py             #   [shared] skill file management
-│   └── version_manager.py          #   [shared] version archive & rollback
-├── skills/                         # generated Skills (gitignored)
-│   ├── colleague/                  #   colleagues
-│   ├── relationship/               #   close relationships
-│   └── celebrity/                  #   public figures
-├── docs/PRD.md
-├── requirements.txt
-└── LICENSE
-```
-
----
-
 ## ⚠️ 注意事項
 
-**ソース素材の品質 = Skill の品質** — そして質の高いソースはファミリーごとに異なります：
+**ソース素材の品質 = Person Profile の品質** — そして質の高いソースはファミリーごとに異なります：
 
 | ファミリー | ソースの優先順位（高 → 低） |
 |--------|------------------------------|
 | 🧑‍💼 **colleague** | **本人が書いた**長文（設計ドキュメント／レビューコメント）**›** **意思決定に関する返信** **›** 雑談チャット |
 | 💞 **relationship** | 完全なチャット履歴 **›** 手紙／SNS 投稿／日記 **›** 第三者による描写 |
-| 🌟 **celebrity** | 一人称の書籍／ブログ／長尺インタビュー **›** 意思決定記録（リリース、コードコミット、Q&A） **›** 第三者による解説 |
+| 🌟 **celebrity** | 長文の一次資料（本人の書籍／ブログ／長尺インタビュー） **›** 意思決定記録（リリース、コードコミット、Q&A） **›** 検証済みの対象本人による短文投稿 **›** 第三者のコメント |
 
-- **colleague** Feishu 自動収集：関連グループチャットに App Bot を追加する必要があります
+- **colleague** Lark 自動収集：関連グループチャットに App Bot を追加する必要があります
 - **relationship**：時間スパンが長いほど良く、衝突と修復の両方をカバーした素材が理想的です
 - **celebrity**：二次解釈だけを食わせるのは避けてください
 - これはまだデモ版です——バグを見つけたら issue を立ててください！
@@ -358,19 +288,19 @@ dot-skill/
 
 ## 📄 技術レポート
 
-> **[COLLEAGUE.SKILL: Automated AI Skill Generation via Expert Knowledge Distillation](../../colleague_skill.pdf)** ([arXiv](https://arxiv.org/abs/2605.31264) · [arXiv PDF](https://arxiv.org/pdf/2605.31264))
+> **[COLLEAGUE.SKILL: Automated AI Skill Generation via Expert Knowledge Distillation](https://arxiv.org/pdf/2605.31264)** ([arXiv](https://arxiv.org/abs/2605.31264) · [arXiv PDF](https://arxiv.org/pdf/2605.31264))
 >
-> これは dot-skill の前身である **colleague.skill** の論文です。Work Skill + Persona の二層アーキテクチャ、マルチソースデータ収集、Skill 生成メカニズムを扱っており、今日の `colleague` ファミリーの理論的基盤となっています。relationship / celebrity ファミリーの拡張については、別途論文の公開を予定しています。
+> これは Distilly の前身である **colleague.skill** の論文です。Work Skill + Persona の二層アーキテクチャ、マルチソースデータ収集、Skill 生成メカニズムを扱っており、今日の `colleague` ファミリーの理論的基盤となっています。relationship / celebrity ファミリーの拡張については、別途論文の公開を予定しています。
 
 ---
 
 ## ⭐ Star History
 
-<a href="https://www.star-history.com/?repos=titanwings%2Fcolleague-skill&type=date&legend=top-left">
+<a href="https://star-history.dera.page/#titanwings/colleague-skill&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=titanwings/colleague-skill&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=titanwings/colleague-skill&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=titanwings/colleague-skill&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=titanwings%2Fdistilly&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://star-history.dera.page/svg?repos=titanwings%2Fdistilly&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://star-history.dera.page/svg?repos=titanwings%2Fdistilly&type=date&legend=top-left" />
  </picture>
 </a>
 
@@ -380,6 +310,6 @@ dot-skill/
 
 **MIT License** © [titanwings](https://github.com/titanwings)
 
-<sub>Made with 🧬 for everyone who wants to distill a person into a skill.</sub>
+<sub>Made with 🧬 for everyone who wants to distill a person into a reusable Person Profile.</sub>
 
 </div>

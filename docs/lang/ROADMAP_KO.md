@@ -1,8 +1,8 @@
 <div align="center">
 
-# dot-skill 로드맵
+# Distilly 로드맵
 
-### colleague.skill에서 dot-skill로 — 누구나 AI 스킬로 증류하기
+### Colleague Skill (`colleague.skill`)에서 Distilly로 — 사람을 AI 에이전트와 호환 봇이 사용할 수 있는 재사용 가능한 Skill로 증류하기
 
 <br>
 
@@ -13,15 +13,15 @@
 하지만 커뮤니티는 이 프로젝트가 동료에게만 머무르지 않는다는 것도 보여줬습니다.
 교수, 전 연인, 자기 자신, 심지어 가상의 캐릭터까지 증류하고 있었으니까요.
 
-**그래서 우리는 colleague.skill을 dot-skill로 확장하기로 했습니다.**
+**그래서 우리는 Colleague Skill (`colleague.skill`)을 Distilly로 확장하기로 했습니다.**
 
-누구나 하나의 `.skill`이 될 수 있습니다.
+누구나 AI 에이전트와 호환 봇이 사용할 수 있는 재사용 가능한 `.skill`이 될 수 있습니다.
 
 <br>
 
-*최종 업데이트: 2026-04-13*
+*최종 업데이트: 2026-08-23*
 
-[**English**](../../ROADMAP.md) · [**中文**](ROADMAP_ZH.md) · [**Español**](ROADMAP_ES.md) · [**Deutsch**](ROADMAP_DE.md) · [**日本語**](ROADMAP_JA.md) · [**Русский**](ROADMAP_RU.md) · [**Português**](ROADMAP_PT.md)
+[**영어**](../../ROADMAP.md) · [**중국어**](ROADMAP_ZH.md) · [**스페인어**](ROADMAP_ES.md) · [**독일어**](ROADMAP_DE.md) · [**일본어**](ROADMAP_JA.md) · [**러시아어**](ROADMAP_RU.md) · [**포르투갈어**](ROADMAP_PT.md)
 
 </div>
 
@@ -31,8 +31,8 @@
 
 | 기능 | 상태 |
 |------|:----:|
-| `/create-colleague` 전체 생성 워크플로우 | 완료 |
-| Feishu 자동 수집 (메시지 + 문서 + 스프레드시트) | 완료 |
+| `/distilly` 캐릭터 유형 선택 기반 전체 생성 워크플로우 | 완료 |
+| Lark 자동 수집 (메시지 + 문서 + 스프레드시트) | 완료 |
 | DingTalk 자동 수집 | 완료 |
 | Slack 자동 수집 | 완료 |
 | WeChat 대화 기록 (SQLite 내보내기) | 완료 |
@@ -44,7 +44,7 @@
 
 ---
 
-## 다음 단계
+## 로드맵 단계
 
 ### Phase 1 — 커뮤니티 구축
 
@@ -62,22 +62,22 @@
 
 ---
 
-### Phase 2 — dot-skill: 동료를 넘어서
+### Phase 2 — Distilly: 동료를 넘어서
 
-> colleague.skill이 시작이었다면, dot-skill은 그 다음 단계입니다.
+> Colleague Skill (`colleague.skill`)이 시작이었다면, Distilly는 그 다음 단계입니다.
 
-**핵심 변화:**
+**출시 완료:**
 
-- **`/create-skill` 범용 진입점** — 더 이상 "동료 만들기"에 한정되지 않고 누구든 증류 가능
-  - `/create-colleague`는 동료, 멘토, 인턴용
-  - `/create-ex`는 전 연인, 옛 친구, 끊긴 관계용
-  - `/create-icon`은 유명인, 역사적 인물용
-  - 혹은... 자기 자신을 증류
+- **`/distilly` 정식 범용 진입점** — `colleague`, `relationship`, `celebrity` 중 하나를 선택한 뒤 자기 자신을 포함해 누구든 증류
+- **이식 가능한 생성 Skill** — 지원되는 Agent 호스트에서 사용하는 표준 `{character}-{slug}` 이름
+
+**아직 출시되지 않은 후속 작업:**
+
 - **갤러리 카테고리 확장** — Colleague / Celebrity / Relationship / Character / Self / Meta-Skill 형태로 나눠 탐색 가능
 - **더 다양한 데이터 소스**
   - WeCom (기업용 WeChat) 지원
   - iMessage 자동 읽기
-  - Windows 호환성 개선
+- **플랫폼 호환성** — Windows 호환성 개선
 
 **도울 수 있는 일:** 원하는 인물 유형 제안, 새 데이터 소스 수집기 개발, 갤러리 디자인 논의 참여
 
@@ -124,9 +124,9 @@
 | 방법 | 위치 |
 |------|------|
 | .skill 제출 | [Gallery PR](https://titanwings.github.io/colleague-skill-site/) |
-| 토론 및 제안 | [GitHub Discussions](https://github.com/titanwings/colleague-skill/discussions) (곧 공개) |
+| 토론 및 제안 | [GitHub Discussions](https://github.com/titanwings/distilly/discussions) (곧 공개) |
 | 실시간 채팅 | [Discord](https://discord.gg/NVX66RxWZv) |
-| 버그 제보 | [Issue](https://github.com/titanwings/colleague-skill/issues/new) |
+| 버그 제보 | [Issue](https://github.com/titanwings/distilly/issues/new) |
 | 코드 기여 | `good-first-issue` 라벨을 찾거나 바로 PR 열기 |
 
 **특히 필요한 분들:**
